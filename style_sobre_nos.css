@@ -2567,13 +2567,32 @@ z-index: 3;
 .nome{
   height: 100%;
 }
+.nome2{
+  height: 100%;
+  opacity: 0.5;
+}
+.nome3{
+  height: 100%;
+  opacity: 0.5;
+}
+.nome4{
+  height: 100%;
+  opacity: 0.5;
+}
+.nome5{
+  height: 100%;
+  opacity: 0.5;
+}
 
 .linha{
   width: 90%;
 height: 13px;
 
 border-radius: 64px;
-background: linear-gradient(90deg, #19DE6E 9.9%, #0B352E 15.1%);
+background: url(img/linha.png);
+background-size: cover;
+background-position: 600% 50%;
+background-repeat: no-repeat;
 }
 
 

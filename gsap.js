@@ -1160,8 +1160,57 @@ gsap.to(".linha", {
         scrub: 1,
         markers:true,
     },
-    background: "linear-gradient(90deg, #19DE6E 100%, #0B352E 15.1%)",
+    backgroundPosition:"0% 50%",
     ease:"none",
     smooth: true,
     duration: 0.3
+});
+
+gsap.to(".nome2", {
+    scrollTrigger:{
+        trigger: ".antes_pessoa_mobile2",
+        start: "0% 0",
+        end: "0% 0",
+        toggleActions: "restart none none reverse",
+        markers:true,
+    },
+    opacity:1,
+    ease:"power4.inOut",
+    duration: 0.5
+});
+gsap.to(".nome3", {
+    scrollTrigger:{
+        trigger: ".antes_pessoa_mobile2",
+        start: "150% 0",
+        end: "150% 0",
+        toggleActions: "restart none none reverse",
+        markers:true,
+    },
+    opacity:1,
+    ease:"power4.inOut",
+    duration: 0.5
+});
+gsap.to(".nome4", {
+    scrollTrigger:{
+        trigger: ".antes_pessoa_mobile2",
+        start: "300% 0",
+        end: "300% 0",
+        toggleActions: "restart none none reverse",
+        markers:true,
+    },
+    opacity:1,
+    ease:"power4.inOut",
+    duration: 0.5
+});
+gsap.to(".nome5", {
+    scrollTrigger:{
+        trigger: ".antes_pessoa_mobile2",
+        start: "450% 0",
+        end: "450% 0",
+        toggleActions: "restart none none reverse",
+        markers:true,
+    },
+    opacity:1,
+    ease:"power4.inOut",
+    duration: 0.5
 });
