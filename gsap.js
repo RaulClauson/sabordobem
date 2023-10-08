@@ -1164,9 +1164,8 @@ gsap.to(".linha2", {
         start: "400% top",
         end: "450% 0",
         scrub: 1,
-        markers:true,
     },
-    marginRight:"-35px",
+    marginRight:"-45px",
     ease:"none",
     smooth: true,
     duration: 0.3

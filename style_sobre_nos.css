@@ -2625,7 +2625,73 @@ overflow-x: hidden;
 
 
 .como_comecou_mobile{
-  height: 200vh;
+  height: 400vh;
   width: 100%;
 }
 
+.titulo_como_comecou_mobile{
+  color: #19674B;
+text-align: center;
+font-family: Pilcrow Rounded;
+font-size: 64px;
+font-style: normal;
+font-weight: 900;
+line-height: 88%; /* 56.32px */
+letter-spacing: -2.24px;
+}
+
+.historia_mobile{
+  background-color: #0B352E;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.baixe_historia_mobile{
+  width: 90%;
+height: 55px;
+flex-shrink: 0;
+  border-radius: 15px;
+border: 2.5px solid #19DE6E;
+background: #19DE6E;
+color: #0B352E;
+text-align: center;
+font-family: Hind;
+font-size: 16px;
+font-style: normal;
+font-weight: bold;
+line-height: 88%; /* 14.08px */
+letter-spacing: -0.56px;
+text-decoration: none;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.textos_historia_mobile{
+  height: 60%;
+  width: 90%;
+}
+
+.texto_historia_mobile{
+  width: 100%;
+  height: 70vh;
+  color: #F3FCF4;
+  text-align: center;
+  font-family: Hind;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 125.5%; /* 35.14px */
+  letter-spacing: -0.98px;
+}
+.texto_historia2_mobile{
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
