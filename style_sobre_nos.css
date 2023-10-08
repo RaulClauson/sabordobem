@@ -2587,14 +2587,14 @@ z-index: 3;
 .linha{
   width: 90%;
 height: 13px;
-
-border-radius: 64px;
-background: url(img/linha.png);
-background-size: cover;
-background-position: 550% 50%;
-background-repeat: no-repeat;
 }
 
+.barra{
+  width: 15%;
+  height: 100%;
+  border-radius: 64px;
+  background-color: #19DE6E;
+}
 
 
 

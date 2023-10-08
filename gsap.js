@@ -1152,7 +1152,7 @@ gsap.to(".antes_pessoa_mobile5", {
     duration: 1
 });
 
-gsap.to(".linha", {
+gsap.to(".barra", {
     scrollTrigger:{
         trigger: ".antes_pessoa_mobile2",
         start: "-50% top",
@@ -1160,7 +1160,7 @@ gsap.to(".linha", {
         scrub: 1,
         markers:true,
     },
-    backgroundPosition:"20% 50%",
+    width:"100%",
     ease:"none",
     smooth: true,
     duration: 0.3
