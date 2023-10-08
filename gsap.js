@@ -1,3 +1,6 @@
+ScrollTrigger . config ({ 
+    autoRefreshEvents : "visibilitychange,DOMContentLoaded,load" });  
+
 gsap.to(".links", {
     scrollTrigger:{
         trigger: ".links",
