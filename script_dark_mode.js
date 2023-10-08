@@ -1,7 +1,6 @@
 const mainContent = document.getElementById("main")
 const switchBTN = document.getElementById("switch")
 
-
 function clickEvent() {
   if(mainContent.classList.contains('main--light')) {
     mainContent.classList.remove('main--light')
@@ -11,6 +10,7 @@ function clickEvent() {
     mainContent.classList.add('main--light')
   }
 }
+
 var content = document.getElementsByTagName('body')[0];
 var content2 = document.getElementsByClassName('svg_inicio2')[0];
 var content3 = document.querySelectorAll('.svg_inicio3'); // Seleciona todos os elementos com a classe 'svg_inicio3'

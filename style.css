@@ -51,6 +51,7 @@ body {
 
   .tudo_mobile{
     display: none;
+    overflow-x: hidden;
   }
 
   @media(max-width:999px) {

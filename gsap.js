@@ -1032,3 +1032,113 @@ gsap.to(".time_sticky_mobile", {
     duration: 0.3
 });
 
+gsap.to(".fundo", {
+    scrollTrigger:{
+        trigger: ".fundo",
+        start: "0% top",
+        end: "100% 0",
+        scrub: 1,
+        pin:true,
+    },
+    ease:"none",
+    smooth: true,
+    duration: 0.3
+});
+gsap.to(".antes_pessoa_mobile", {
+    scrollTrigger:{
+        trigger: ".antes_pessoa_mobile",
+        start: "0% 0",
+        end: "0% 0",
+        toggleActions: "restart none none reverse",
+    },
+    ease:"power4.inOut",
+    marginLeft:"-200vw",
+    duration: 1.5
+});
+gsap.to(".pessoa_mobile2", {
+    scrollTrigger:{
+        trigger: ".pessoa_mobile2",
+        start: "0% 0",
+        end: "0% 0",
+        toggleActions: "restart none none reverse",
+    },
+    ease:"power4.inOut",
+    marginLeft:0,
+    duration: 1.5
+});
+gsap.to(".antes_pessoa_mobile2", {
+    scrollTrigger:{
+        trigger: ".antes_pessoa_mobile2",
+        start: "100% 0",
+        end: "100% 0",
+        toggleActions: "restart none none reverse",
+    },
+    ease:"power4.inOut",
+    marginLeft:"-200vw",
+    duration: 1.5
+});
+gsap.to(".pessoa_mobile3", {
+    scrollTrigger:{
+        trigger: ".pessoa_mobile2",
+        start: "100% 0",
+        end: "100% 0",
+        toggleActions: "restart none none reverse",
+    },
+    ease:"power4.inOut",
+    marginLeft:0,
+    duration: 1.5
+});
+gsap.to(".antes_pessoa_mobile3", {
+    scrollTrigger:{
+        trigger: ".antes_pessoa_mobile2",
+        start: "200% 0",
+        end: "200% 0",
+        toggleActions: "restart none none reverse",
+    },
+    ease:"power4.inOut",
+    marginLeft:"-200vw",
+    duration: 1.5
+});
+gsap.to(".pessoa_mobile4", {
+    scrollTrigger:{
+        trigger: ".pessoa_mobile2",
+        start: "200% 0",
+        end: "200% 0",
+        toggleActions: "restart none none reverse",
+    },
+    ease:"power4.inOut",
+    marginLeft:0,
+    duration: 1.5
+});
+gsap.to(".antes_pessoa_mobile4", {
+    scrollTrigger:{
+        trigger: ".antes_pessoa_mobile2",
+        start: "300% 0",
+        end: "300% 0",
+        toggleActions: "restart none none reverse",
+    },
+    ease:"power4.inOut",
+    marginLeft:"-200vw",
+    duration: 1.5
+});
+gsap.to(".pessoa_mobile5", {
+    scrollTrigger:{
+        trigger: ".pessoa_mobile2",
+        start: "300% 0",
+        end: "300% 0",
+        toggleActions: "restart none none reverse",
+    },
+    ease:"power4.inOut",
+    marginLeft:0,
+    duration: 1.5
+});
+gsap.to(".antes_pessoa_mobile5", {
+    scrollTrigger:{
+        trigger: ".antes_pessoa_mobile2",
+        start: "400% 0",
+        end: "400% 0",
+        toggleActions: "restart none none reverse",
+    },
+    ease:"power4.inOut",
+    duration: 1.5
+});
