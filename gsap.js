@@ -1069,8 +1069,8 @@ gsap.to(".pessoa_mobile2", {
 gsap.to(".antes_pessoa_mobile2", {
     scrollTrigger:{
         trigger: ".antes_pessoa_mobile2",
-        start: "100% 0",
-        end: "100% 0",
+        start: "250% 0",
+        end: "250% 0",
         toggleActions: "restart none none reverse",
     },
     ease:"power4.inOut",
@@ -1080,8 +1080,8 @@ gsap.to(".antes_pessoa_mobile2", {
 gsap.to(".pessoa_mobile3", {
     scrollTrigger:{
         trigger: ".pessoa_mobile2",
-        start: "100% 0",
-        end: "100% 0",
+        start: "250% 0",
+        end: "250% 0",
         toggleActions: "restart none none reverse",
     },
     ease:"power4.inOut",
@@ -1091,8 +1091,8 @@ gsap.to(".pessoa_mobile3", {
 gsap.to(".antes_pessoa_mobile3", {
     scrollTrigger:{
         trigger: ".antes_pessoa_mobile2",
-        start: "200% 0",
-        end: "200% 0",
+        start: "500% 0",
+        end: "500% 0",
         toggleActions: "restart none none reverse",
     },
     ease:"power4.inOut",
@@ -1102,8 +1102,8 @@ gsap.to(".antes_pessoa_mobile3", {
 gsap.to(".pessoa_mobile4", {
     scrollTrigger:{
         trigger: ".pessoa_mobile2",
-        start: "200% 0",
-        end: "200% 0",
+        start: "500% 0",
+        end: "500% 0",
         toggleActions: "restart none none reverse",
     },
     ease:"power4.inOut",
@@ -1113,8 +1113,8 @@ gsap.to(".pessoa_mobile4", {
 gsap.to(".antes_pessoa_mobile4", {
     scrollTrigger:{
         trigger: ".antes_pessoa_mobile2",
-        start: "300% 0",
-        end: "300% 0",
+        start: "750% 0",
+        end: "750% 0",
         toggleActions: "restart none none reverse",
     },
     ease:"power4.inOut",
@@ -1124,8 +1124,8 @@ gsap.to(".antes_pessoa_mobile4", {
 gsap.to(".pessoa_mobile5", {
     scrollTrigger:{
         trigger: ".pessoa_mobile2",
-        start: "300% 0",
-        end: "300% 0",
+        start: "750% 0",
+        end: "750% 0",
         toggleActions: "restart none none reverse",
     },
     ease:"power4.inOut",
@@ -1135,8 +1135,8 @@ gsap.to(".pessoa_mobile5", {
 gsap.to(".antes_pessoa_mobile5", {
     scrollTrigger:{
         trigger: ".antes_pessoa_mobile2",
-        start: "400% 0",
-        end: "400% 0",
+        start: "1000% 0",
+        end: "1000% 0",
         toggleActions: "restart none none reverse",
     },
     ease:"power4.inOut",
