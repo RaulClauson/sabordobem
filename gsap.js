@@ -1154,13 +1154,13 @@ gsap.to(".antes_pessoa_mobile5", {
 
 gsap.to(".linha", {
     scrollTrigger:{
-        trigger: ".time_mobile",
-        start: "0% top",
-        end: "70% 0",
+        trigger: ".antes_pessoa_mobile2",
+        start: "-50% top",
+        end: "450% 0",
         scrub: 1,
         markers:true,
     },
-    backgroundPosition:"0% 50%",
+    backgroundPosition:"20% 50%",
     ease:"none",
     smooth: true,
     duration: 0.3
