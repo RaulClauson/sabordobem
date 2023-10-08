@@ -1155,6 +1155,19 @@ gsap.to(".barra", {
     smooth: true,
     duration: 0.3
 });
+gsap.to(".linha2", {
+    scrollTrigger:{
+        trigger: ".antes_pessoa_mobile2",
+        start: "400% top",
+        end: "450% 0",
+        scrub: 1,
+        markers:true,
+    },
+    marginRight:"-35px",
+    ease:"none",
+    smooth: true,
+    duration: 0.3
+});
 
 gsap.to(".nome2", {
     scrollTrigger:{
