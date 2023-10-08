@@ -2428,29 +2428,16 @@ z-index: 3;
 
 .pessoas_mobile{
   width: 100%;
-  height: 312px;
+  height: 480px;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 30px;
   z-index: 3;
 }
-.pessoas_mobile2{
-  width: 100%;
-  height: 143px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 3;
-}
-.baixo{
-  height: 312px;
-}
-.baixo2{
-  height: 143px;
-}
 .antes_pessoa_mobile{
   width: 90%;
+  height: 480px;
   position: absolute;
   margin: 0;
   display: flex;
@@ -2458,8 +2445,6 @@ z-index: 3;
   flex-direction: column;
 }
 .pessoa_mobile{
-}
-.nome{
   width: 100%;
   height: 100%;
   background: url(img/foto_leo.png);
@@ -2467,7 +2452,7 @@ z-index: 3;
   background-position: 50% 50%;
   background-repeat: no-repeat;
 }
-.nome2{
+.pessoa_mobile2{
   width: 100%;
   height: 100%;
   background: url(img/foto_lorenzo.png);
@@ -2475,7 +2460,7 @@ z-index: 3;
   background-position: 50% 50%;
   background-repeat: no-repeat;
 }
-.nome3{
+.pessoa_mobile3{
   width: 100%;
   height: 100%;
   background: url(img/foto_lucas.png);
@@ -2483,7 +2468,7 @@ z-index: 3;
   background-position: 50% 50%;
   background-repeat: no-repeat;
 }
-.nome4{
+.pessoa_mobile4{
   width: 100%;
   height: 100%;
   background: url(img/foto_mari.png);
@@ -2491,7 +2476,7 @@ z-index: 3;
   background-position: 50% 50%;
   background-repeat: no-repeat;
 }
-.nome5{
+.pessoa_mobile5{
   width: 100%;
   height: 100%;
   background: url(img/foto_raul.png);
@@ -2499,11 +2484,9 @@ z-index: 3;
   background-position: 50% 50%;
   background-repeat: no-repeat;
 }
-.nome6{
-  width: 80%;
-}
 .antes_pessoa_mobile2{
   width: 90%;
+  height: 480px;
   position: absolute;
   margin: 0;
   display: flex;
@@ -2515,6 +2498,7 @@ z-index: 3;
 }
 .antes_pessoa_mobile3{
   width: 90%;
+  height: 480px;
   position: absolute;
   margin: 0;
   display: flex;
@@ -2526,6 +2510,7 @@ z-index: 3;
 }
 .antes_pessoa_mobile4{
   width: 90%;
+  height: 480px;
   position: absolute;
   margin: 0;
   display: flex;
@@ -2537,6 +2522,7 @@ z-index: 3;
 }
 .antes_pessoa_mobile5{
   width: 90%;
+  height: 480px;
   position: absolute;
   margin: 0;
   display: flex;
@@ -2545,4 +2531,9 @@ z-index: 3;
 }
 .pessoa_mobile5{
   margin-left: 200vw;
+}
+
+.como_comecou_mobile{
+  height: 200vh;
+  width: 100%;
 }

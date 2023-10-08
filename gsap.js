@@ -1050,10 +1050,11 @@ gsap.to(".antes_pessoa_mobile", {
         start: "0% 0",
         end: "0% 0",
         toggleActions: "restart none none reverse",
+                markers:true,
     },
     ease:"power4.inOut",
     marginLeft:"-200vw",
-    duration: 1.5
+    duration: 1
 });
 gsap.to(".pessoa_mobile2", {
     scrollTrigger:{
@@ -1061,84 +1062,92 @@ gsap.to(".pessoa_mobile2", {
         start: "0% 0",
         end: "0% 0",
         toggleActions: "restart none none reverse",
+                markers:true,
     },
     ease:"power4.inOut",
     marginLeft:0,
-    duration: 1.5
+    duration: 1
 });
 gsap.to(".antes_pessoa_mobile2", {
     scrollTrigger:{
         trigger: ".antes_pessoa_mobile2",
-        start: "250% 0",
-        end: "250% 0",
+        start: "150% 0",
+        end: "150% 0",
         toggleActions: "restart none none reverse",
+                markers:true,
     },
     ease:"power4.inOut",
     marginLeft:"-200vw",
-    duration: 1.5
+    duration: 1
 });
 gsap.to(".pessoa_mobile3", {
     scrollTrigger:{
         trigger: ".pessoa_mobile2",
-        start: "250% 0",
-        end: "250% 0",
+        start: "150% 0",
+        end: "150% 0",
         toggleActions: "restart none none reverse",
+                markers:true,
     },
     ease:"power4.inOut",
     marginLeft:0,
-    duration: 1.5
+    duration: 1
 });
 gsap.to(".antes_pessoa_mobile3", {
     scrollTrigger:{
         trigger: ".antes_pessoa_mobile2",
-        start: "500% 0",
-        end: "500% 0",
+        start: "300% 0",
+        end: "300% 0",
         toggleActions: "restart none none reverse",
+                markers:true,
     },
     ease:"power4.inOut",
     marginLeft:"-200vw",
-    duration: 1.5
+    duration: 1
 });
 gsap.to(".pessoa_mobile4", {
     scrollTrigger:{
         trigger: ".pessoa_mobile2",
-        start: "500% 0",
-        end: "500% 0",
+        start: "300% 0",
+        end: "300% 0",
         toggleActions: "restart none none reverse",
+                markers:true,
     },
     ease:"power4.inOut",
     marginLeft:0,
-    duration: 1.5
+    duration: 1
 });
 gsap.to(".antes_pessoa_mobile4", {
     scrollTrigger:{
         trigger: ".antes_pessoa_mobile2",
-        start: "750% 0",
-        end: "750% 0",
+        start: "450% 0",
+        end: "450% 0",
         toggleActions: "restart none none reverse",
+                markers:true,
     },
     ease:"power4.inOut",
     marginLeft:"-200vw",
-    duration: 1.5
+    duration: 1
 });
 gsap.to(".pessoa_mobile5", {
     scrollTrigger:{
         trigger: ".pessoa_mobile2",
-        start: "750% 0",
-        end: "750% 0",
+        start: "450% 0",
+        end: "450% 0",
         toggleActions: "restart none none reverse",
+        markers:true,
     },
     ease:"power4.inOut",
     marginLeft:0,
-    duration: 1.5
+    duration: 1
 });
 gsap.to(".antes_pessoa_mobile5", {
     scrollTrigger:{
         trigger: ".antes_pessoa_mobile2",
-        start: "1000% 0",
-        end: "1000% 0",
+        start: "600% 0",
+        end: "600% 0",
         toggleActions: "restart none none reverse",
+        markers:true,
     },
     ease:"power4.inOut",
-    duration: 1.5
+    duration: 1
 });
