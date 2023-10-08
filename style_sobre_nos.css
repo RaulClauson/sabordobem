@@ -2533,7 +2533,68 @@ z-index: 3;
   margin-left: 200vw;
 }
 
+
+
+
+
+
+
+
+
+
+
+.indica{
+  width: 90%;
+  height: 65px;
+  border-radius: 15px;
+  background: #0B362E;
+  z-index: 10;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.nomes{
+  width: 80%;
+  height: 24px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.nome{
+  height: 100%;
+}
+
+.linha{
+  width: 90%;
+height: 13px;
+
+border-radius: 64px;
+background: linear-gradient(90deg, #19DE6E 9.9%, #0B352E 15.1%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .como_comecou_mobile{
   height: 200vh;
   width: 100%;
 }
+

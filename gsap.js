@@ -1151,3 +1151,17 @@ gsap.to(".antes_pessoa_mobile5", {
     ease:"power4.inOut",
     duration: 1
 });
+
+gsap.to(".linha", {
+    scrollTrigger:{
+        trigger: ".time_mobile",
+        start: "0% top",
+        end: "70% 0",
+        scrub: 1,
+        markers:true,
+    },
+    background: "linear-gradient(90deg, #19DE6E 100%, #0B352E 15.1%)",
+    ease:"none",
+    smooth: true,
+    duration: 0.3
+});
