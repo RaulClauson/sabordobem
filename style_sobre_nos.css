@@ -2409,6 +2409,7 @@ margin: 0;
   height: 80%;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   flex-direction: column;
 }
 
@@ -2422,7 +2423,6 @@ font-weight: 900;
 line-height: 88%; /* 44px */
 letter-spacing: -1.75px;
 margin: 0;
-margin-bottom: 75px;
 z-index: 3;
 }
 
@@ -2432,7 +2432,6 @@ z-index: 3;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 30px;
   z-index: 3;
 }
 .antes_pessoa_mobile{
@@ -2625,8 +2624,16 @@ overflow-x: hidden;
 
 
 .como_comecou_mobile{
-  height: 400vh;
+  height: 220vh;
   width: 100%;
+  overflow: hidden;
+  background: #0B352E;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  position: relative;
 }
 
 .titulo_como_comecou_mobile{
@@ -2641,13 +2648,15 @@ letter-spacing: -2.24px;
 }
 
 .historia_mobile{
-  background-color: #0B352E;
   height: 100vh;
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-direction: column;
+  z-index: 2;
+  position: absolute;
+  top: 0;
 }
 .baixe_historia_mobile{
   width: 90%;
@@ -2668,16 +2677,23 @@ text-decoration: none;
 display: flex;
 align-items: center;
 justify-content: center;
+z-index: 10;
+margin-bottom: 10%;
 }
 
 .textos_historia_mobile{
-  height: 60%;
-  width: 90%;
+  width: 100%;
+  height: 75%;
+  z-index: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
 }
 
 .texto_historia_mobile{
-  width: 100%;
-  height: 70vh;
+  width: 90%;
   color: #F3FCF4;
   text-align: center;
   font-family: Hind;
@@ -2689,9 +2705,25 @@ justify-content: center;
 }
 .texto_historia2_mobile{
   width: 100%;
-  height: 50vh;
   display: flex;
   align-items: center;
   justify-content: center;
   z-index: 1;
+}
+
+.gradient_historia_topo_mobile{
+  position: absolute;
+  top: 0;
+  width: 100%;
+height: 310px;
+background: linear-gradient(0deg, rgba(25, 103, 75, 0.00) 0%, #0B352E 60%);
+z-index: 5;
+}
+.gradient_historia_baixo_mobile{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+height: 310px;
+background: linear-gradient(180deg, rgba(25, 103, 75, 0.00) 0%, #0B352E 60%);
+z-index: 5;
 }

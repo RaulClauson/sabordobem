@@ -1215,3 +1215,27 @@ gsap.to(".nome5", {
     ease:"power4.inOut",
     duration: 0.5
 });
+
+
+
+
+
+
+
+
+
+
+
+
+gsap.to(".historia_mobile", {
+    scrollTrigger:{
+        trigger: ".historia_mobile",
+        start: "0% top",
+        end: "220% 100%",
+        scrub: 1,
+        pin:true,
+    },
+    ease:"none",
+    smooth: true,
+    duration: 0.3
+});
