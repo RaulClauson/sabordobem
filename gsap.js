@@ -1050,8 +1050,8 @@ gsap.to(".fundo", {
 gsap.to(".antes_pessoa_mobile", {
     scrollTrigger:{
         trigger: ".antes_pessoa_mobile",
-        start: "0% 0",
-        end: "0% 0",
+        start: "30% 0",
+        end: "30% 0",
         toggleActions: "restart none none reverse",
     },
     ease:"power4.inOut",
@@ -1061,8 +1061,8 @@ gsap.to(".antes_pessoa_mobile", {
 gsap.to(".pessoa_mobile2", {
     scrollTrigger:{
         trigger: ".pessoa_mobile2",
-        start: "0% 0",
-        end: "0% 0",
+        start: "30% 0",
+        end: "30% 0",
         toggleActions: "restart none none reverse",
     },
     ease:"power4.inOut",
@@ -1164,8 +1164,8 @@ gsap.to(".linha2", {
 gsap.to(".nome2", {
     scrollTrigger:{
         trigger: ".antes_pessoa_mobile2",
-        start: "0% 0",
-        end: "0% 0",
+        start: "30% 0",
+        end: "30% 0",
         toggleActions: "restart none none reverse",
     },
     opacity:1,
