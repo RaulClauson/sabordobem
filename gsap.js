@@ -1116,8 +1116,8 @@ gsap.to(".pessoa_mobile4", {
 gsap.to(".antes_pessoa_mobile4", {
     scrollTrigger:{
         trigger: ".antes_pessoa_mobile2",
-        start: "450% 0",
-        end: "450% 0",
+        start: "430% 0",
+        end: "430% 0",
         toggleActions: "restart none none reverse",
     },
     ease:"power4.inOut",
@@ -1127,22 +1127,12 @@ gsap.to(".antes_pessoa_mobile4", {
 gsap.to(".pessoa_mobile5", {
     scrollTrigger:{
         trigger: ".pessoa_mobile2",
-        start: "450% 0",
-        end: "450% 0",
+        start: "430% 0",
+        end: "430% 0",
         toggleActions: "restart none none reverse",
     },
     ease:"power4.inOut",
     marginLeft:0,
-    duration: 1
-});
-gsap.to(".antes_pessoa_mobile5", {
-    scrollTrigger:{
-        trigger: ".antes_pessoa_mobile2",
-        start: "600% 0",
-        end: "600% 0",
-        toggleActions: "restart none none reverse",
-    },
-    ease:"power4.inOut",
     duration: 1
 });
 
@@ -1150,7 +1140,7 @@ gsap.to(".barra", {
     scrollTrigger:{
         trigger: ".antes_pessoa_mobile2",
         start: "-50% top",
-        end: "450% 0",
+        end: "430% 0",
         scrub: 1,
     },
     width:"100%",
@@ -1162,7 +1152,7 @@ gsap.to(".linha2", {
     scrollTrigger:{
         trigger: ".antes_pessoa_mobile2",
         start: "400% top",
-        end: "450% 0",
+        end: "430% 0",
         scrub: 1,
     },
     marginRight:"-45px",
@@ -1207,8 +1197,8 @@ gsap.to(".nome4", {
 gsap.to(".nome5", {
     scrollTrigger:{
         trigger: ".antes_pessoa_mobile2",
-        start: "450% 0",
-        end: "450% 0",
+        start: "430% 0",
+        end: "430% 0",
         toggleActions: "restart none none reverse",
     },
     opacity:1,
