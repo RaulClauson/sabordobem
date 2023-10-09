@@ -1221,7 +1221,7 @@ gsap.to(".historia_mobile", {
     scrollTrigger:{
         trigger: ".historia_mobile",
         start: "0% top",
-        end: "220% 100%",
+        end: "250% 100%",
         scrub: 1,
         pin:true,
     },

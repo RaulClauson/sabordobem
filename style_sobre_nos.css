@@ -2294,12 +2294,6 @@ padding-right: 25px;
 
 
 
-.inicio_mobile{
-  width: 100%;
-  height: 163vh;
-
-}
-
 .fundo{
   width: 100%;
   height: 100vh;
@@ -2309,18 +2303,40 @@ padding-right: 25px;
   background-repeat: no-repeat;
   position: absolute;
   z-index: -1;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.titulo_inicio_mobile{
+  color: #19674B;
+text-align: center;
+font-family: Pilcrow Rounded;
+font-size: 44px;
+font-style: normal;
+font-weight: 900;
+line-height: 95.5%; /* 42.02px */
+letter-spacing: -1.54px;
+margin: 0;
 }
 
 .missao_mobile{
-  background: #F3FCF4;
-  border-radius:20px;
   width: 100%;
-  height: 70vh;
+  height: auto;
   display: flex;
   align-items: center;
   flex-direction: column;
-  position: absolute;
-  margin-top: 93vh;
+  margin-top: 85vh;
+}
+.missao_mobile_fundo{
+  background: #F3FCF4;
+  border-radius:20px 20px 0px 0px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 3%;
 }
 .centraliza_missao{
   width: 90%;
@@ -2364,6 +2380,8 @@ font-weight: 700;
 line-height: 99%; /* 17.82px */
 letter-spacing: -0.63px;
 margin: 0;
+z-index: 2;
+margin-bottom: 80px;
 }
 
 
@@ -2387,11 +2405,13 @@ margin: 0;
   position: absolute;
   top: -5vh;
   right: 0;
+  z-index: 0;
 }
 .enfeite_time2{
   position: absolute;
   bottom: -10vh;
   left: 0;
+  z-index: 0;
 }
 .time_sticky_mobile{
   width: 100%;
@@ -2406,7 +2426,7 @@ margin: 0;
   flex-direction: column;
 }
 .alinha_mobile{
-  height: 80%;
+  height: 85%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -2428,15 +2448,16 @@ z-index: 3;
 
 .pessoas_mobile{
   width: 100%;
-  height: 480px;
+  height: 60%;
   display: flex;
   align-items: center;
   justify-content: center;
   z-index: 3;
+  position: relative;
 }
 .antes_pessoa_mobile{
   width: 90%;
-  height: 480px;
+  height: 100%;
   position: absolute;
   margin: 0;
   display: flex;
@@ -2485,7 +2506,7 @@ z-index: 3;
 }
 .antes_pessoa_mobile2{
   width: 90%;
-  height: 480px;
+  height: 100%;
   position: absolute;
   margin: 0;
   display: flex;
@@ -2497,7 +2518,7 @@ z-index: 3;
 }
 .antes_pessoa_mobile3{
   width: 90%;
-  height: 480px;
+  height: 100%;
   position: absolute;
   margin: 0;
   display: flex;
@@ -2509,7 +2530,7 @@ z-index: 3;
 }
 .antes_pessoa_mobile4{
   width: 90%;
-  height: 480px;
+  height: 100%;
   position: absolute;
   margin: 0;
   display: flex;
@@ -2521,7 +2542,7 @@ z-index: 3;
 }
 .antes_pessoa_mobile5{
   width: 90%;
-  height: 480px;
+  height: 100%;
   position: absolute;
   margin: 0;
   display: flex;
@@ -2624,7 +2645,7 @@ overflow-x: hidden;
 
 
 .como_comecou_mobile{
-  height: 220vh;
+  height: 250vh;
   width: 100%;
   overflow: hidden;
   background: #0B352E;
