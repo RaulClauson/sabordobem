@@ -2656,6 +2656,8 @@ overflow-x: hidden;
   flex-direction: column;
 
   position: relative;
+
+  margin-bottom: 70px;
 }
 
 .titulo_como_comecou_mobile{
@@ -2761,7 +2763,6 @@ z-index: 5;
 
 .entrevista_mobile{
   width: 100%;
-  margin-top: 70px;
 }
 
 .fotos_entrevista_mobile{
