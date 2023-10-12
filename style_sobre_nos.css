@@ -2648,7 +2648,6 @@ overflow-x: hidden;
 .como_comecou_mobile{
   height: 250vh;
   width: 100%;
-  overflow: hidden;
   background: #0B352E;
   display: flex;
   align-items: center;
