@@ -1418,33 +1418,33 @@ body {
         animation: shakeOff 0.7s;
       }
       .main .text {
-        font-size: 10vw;
-        line-height: 8vw;
+        font-size: 7rem;
+        line-height: 9rem;
         position: relative;
       }
       .main .text--light {
-        left: -7vw;
+        left: -8rem;
         color: rgba(79, 84, 94, 0.4);
       }
       .main .text--dark {
-        left: 5rem;
+        left: 5.5rem;
         color: rgba(204, 215, 234, 0.8);
       }
       @media only screen and (max-width: 1130px) {
         .main .text {
           font-size: 7rem;
-          line-height: 5.5rem;
+          line-height: 9rem;
         }
         .main .text--light {
-          left: -5rem;
+          left: -8rem;
         }
         .main .text--dark {
-          left: 4rem;
+          left: 5.5rem;
         }
       }
       @media only screen and (min-width: 1800px) {
         .main .text {
-          font-size: 11rem;
+          font-size: 7rem;
           line-height: 9rem;
         }
         .main .text--light {
@@ -1456,55 +1456,55 @@ body {
       }
       .main #switch {
         border: none;
-        width: 5vw;
-        height: 3vw;
-        border-radius: 4vw;
+        width: 7rem;
+        height: 4rem;
+        border-radius: 5rem;
         position: absolute;
         cursor: pointer;
       }
       .main #switch .btn-switch {
         display: block;
         background-color: #fff;
-        width: 2.6vw;
-        height: 2.6vw;
+        width: 3rem;
+        height: 3rem;
         border-radius: 3vw;
         position: absolute;
         z-index: 0;
         top: 13%;
       }
       .main #switch i {
-        font-size: 4vw;
+        font-size: 2rem;
         position: absolute;
         z-index: 1;
-        top: 26%;
+        top: 25%;
         color: #3FC46D;
       }
       .main #switch i.bxs-sun {
-        left: 15%;
+        left: 15.5%;
       }
       .main #switch i.bxs-moon {
-        right: 15%;
+        right: 15.5%;
       }
       @media only screen and (max-width: 1130px) {
         .main #switch {
-          width: 4rem;
-          height: 2rem;
+          width: 7rem;
+          height: 4rem;
           border-radius: 5rem;
         }
         .main #switch .btn-switch {
-          width: 1.8rem;
-          height: 1.8rem;
-          border-radius: 3rem;
+          width: 3rem;
+          height: 3rem;
+          border-radius: 3vw;
         }
         .main #switch i {
-          font-size: 2.3rem;
-          top: 28%;
+          font-size: 2rem;
+          top: 25%;
         }
         .main #switch i.bxs-sun {
-          left: 16%;
+          right: 15.5%;
         }
         .main #switch i.bxs-moon {
-          right: 16%;
+          right: 15.5%;
         }
       }
       @media only screen and (min-width: 1620px) {
@@ -1698,7 +1698,33 @@ body {
 
 
 
-
+      #overlay{
+        position:fixed;
+        z-index:99999;
+        top:0;
+        left:0;
+        bottom:0;
+        right:0;
+        background:rgba(0,0,0,0.9);
+        transition: 1s 0.4s;
+      }
+      #progress{
+        height:1px;
+        background:#fff;
+        position:absolute;
+        width:0;
+        top:50%;
+      }
+      #progstat{
+        font-size:0.7em;
+        letter-spacing: 3px;
+        position:absolute;
+        top:50%;
+        margin-top:-40px;
+        width:100%;
+        text-align:center;
+        color:#fff;
+      }
 
 
 
