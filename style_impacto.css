@@ -14,7 +14,26 @@ body {
   }
 
 
+  .tudo_desktop{
+    display: block;
+  }
 
+  @media(max-width:999px) {
+    .tudo_desktop{
+      display: none;
+    }
+  }
+
+  .tudo_mobile{
+    display: none;
+    overflow-x: hidden;
+  }
+
+  @media(max-width:999px) {
+    .tudo_mobile{
+      display: block;
+    }
+  }
   
   /* MUDAR O STYLE DO SCROLLBAR */
 
@@ -114,6 +133,62 @@ body {
     background-repeat: no-repeat;
   }
   .items__layer:nth-child(3) .items__item:after {
+    bottom: 0;
+    left: 0;
+  }
+
+
+
+  .items__inner2 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #19674B;
+  }
+  .items__layer2 .items__item2 {
+    position: absolute;
+    width: 110%;
+    height: 110vh;
+  }
+  .items__layer2 .items__item2:after {
+    content: attr(data-title);
+    position: absolute;
+    line-height: 20px;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: all 0.5s ease;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .items__layer2 .items__item2:hover:after {
+    visibility: visible;
+    opacity: 1;
+  }
+  .items__layer2:nth-child(1) .items__item2 {
+    top: -5vh;
+    left: -5vh;
+    width: 210vh;
+    height: 110vh;
+    background: url('img/background_impacto_fundo.png'), 50% / cover no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .items__layer2:nth-child(1) .items__item2:after {
+    top: 0;
+    left: 0;
+  }
+  .items__layer2:nth-child(3) .items__item2 {
+    top: -5vh;
+    left: -5vh;
+    width: 120vw;
+    height: 110vh;
+    background: url(img/background_impacto_pessoa.png);
+    background-size: cover;
+    background-position: 75% 0%;
+    background-repeat: no-repeat;
+  }
+  .items__layer2:nth-child(3) .items__item2:after {
     bottom: 0;
     left: 0;
   }
@@ -1367,3 +1442,183 @@ line-height: 93.5%;
       }
     }
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* TUDO MOBILE */
+
+  .fundo{
+    width: 100%;
+    height: 100vh;
+    background: url(img/fundo_sobre_nos.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: -1;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .titulo_inicio_mobile{
+    color: #19674B;
+  text-align: center;
+  font-family: Pilcrow Rounded;
+  font-size: 10vw;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 95.5%; /* 42.02px */
+  letter-spacing: -1.54px;
+  margin: 0;
+  }
+  
+  .missao_mobile{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 85vh;
+  }
+  .missao_mobile_fundo{
+    background: #F3FCF4;
+    border-radius:20px 20px 0px 0px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3%;
+  }
+  .centraliza_missao{
+    width: 90%;
+  }
+  .textos_cima_mobile{
+    margin-top: 135px;
+    width: 90%;
+  }
+  .sub_titulo_missao_mobile{
+    color: #19674B;
+  font-family: 'Hind';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.63px;
+  margin: 0;
+  }
+  
+  .titulo_missao_mobile{
+    color: #19674B;
+    font-family: 'Pilcrow Rounded', sans-serif;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 88%; /* 56.32px */
+  letter-spacing: -2.24px;
+  margin: 0;
+  }
+  .textos_baixo_mobile{
+    margin-top: 157px;
+  }
+  .texto_missao_mobile{
+    width: 85%;
+    float: right;
+    color: #19674B;
+  font-family: 'Hind';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 99%; /* 17.82px */
+  letter-spacing: -0.63px;
+  margin: 0;
+  z-index: 2;
+  margin-bottom: 80px;
+  }
+  
