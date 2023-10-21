@@ -181,7 +181,7 @@ body {
   .items__layer2:nth-child(3) .items__item2 {
     top: -5vh;
     left: -5vh;
-    width: 120vw;
+    width: 210vh;
     height: 110vh;
     background: url(img/background_impacto_pessoa.png);
     background-size: cover;
