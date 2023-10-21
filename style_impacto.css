@@ -168,8 +168,8 @@ body {
   .items__layer2:nth-child(1) .items__item2 {
     top: -5vh;
     left: -5vh;
-    width: 250vh;
-    height: 150vh;
+    width: 210vh;
+    height: 110vh;
     background: url('img/background_impacto_fundo.png'), 50% / cover no-repeat;
     background-size: cover;
     background-repeat: no-repeat;
