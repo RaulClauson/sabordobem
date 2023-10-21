@@ -147,8 +147,8 @@ body {
   }
   .items__layer2 .items__item2 {
     position: absolute;
-    width: 110%;
-    height: 110vh;
+    width: 150%;
+    height: 150vh;
   }
   .items__layer2 .items__item2:after {
     content: attr(data-title);
@@ -181,7 +181,7 @@ body {
   .items__layer2:nth-child(3) .items__item2 {
     top: -5vh;
     left: -5vh;
-    width: 210vh;
+    width: 120vw;
     height: 110vh;
     background: url(img/background_impacto_pessoa.png);
     background-size: cover;
