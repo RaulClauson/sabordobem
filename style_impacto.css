@@ -183,7 +183,7 @@ body {
     left: 0;
   }
   .items__layer2:nth-child(3) .items__item2 {
-    top: -5vh;
+    top: 2vh;
     left: -5vh;
     width: 120vw;
     height: 110vh;
