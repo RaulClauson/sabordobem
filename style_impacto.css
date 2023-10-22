@@ -1,39 +1,37 @@
 body {
-    margin: 0;
-    padding: 0;
-  }
+  margin: 0;
+  padding: 0;
+}
 
-  body {
-    height: 100vh;
-    max-width: 100%;
-    background-color: #F3FCF4;
-    overflow-x: hidden;
+body {
+  background-color: #F3FCF4;
+  overflow-x: hidden;
 
 
-    cursor: url('img/mouse1.png'), auto;
-  }
+  cursor: url('img/mouse1.png'), auto;
+}
 
 
+.tudo_desktop{
+  display: block;
+}
+
+@media(max-width:999px) {
   .tudo_desktop{
+    display: none;
+  }
+}
+
+.tudo_mobile{
+  display: none;
+  overflow-x: hidden;
+}
+
+@media(max-width:999px) {
+  .tudo_mobile{
     display: block;
   }
-
-  @media(max-width:999px) {
-    .tudo_desktop{
-      display: none;
-    }
-  }
-
-  .tudo_mobile{
-    display: none;
-    overflow-x: hidden;
-  }
-
-  @media(max-width:999px) {
-    .tudo_mobile{
-      display: block;
-    }
-  }
+}
   
   /* MUDAR O STYLE DO SCROLLBAR */
 
@@ -1571,9 +1569,10 @@ line-height: 93.5%;
     align-items: center;
     flex-direction: column;
     margin-top: 85vh;
+    overflow-x: hidden;
   }
   .missao_mobile_fundo{
-    background: #F3FCF4;
+    background: #0B352E;
     border-radius:20px 20px 0px 0px;
     width: 100%;
     height: auto;
@@ -1581,16 +1580,22 @@ line-height: 93.5%;
     align-items: center;
     flex-direction: column;
     margin-top: 3%;
+    overflow: hidden;
+  }
+  .svg_missao{
+    margin-top: -5vh;
+    position: relative;
   }
   .centraliza_missao{
     width: 90%;
+    position: absolute;
   }
   .textos_cima_mobile{
     margin-top: 135px;
     width: 90%;
   }
   .sub_titulo_missao_mobile{
-    color: #19674B;
+    color: #EEF0F6;
   font-family: 'Hind';
   font-size: 18px;
   font-style: normal;
@@ -1601,7 +1606,7 @@ line-height: 93.5%;
   }
   
   .titulo_missao_mobile{
-    color: #19674B;
+    color: #EEF0F6;
     font-family: 'Pilcrow Rounded', sans-serif;
   font-size: 64px;
   font-style: normal;
@@ -1616,7 +1621,7 @@ line-height: 93.5%;
   .texto_missao_mobile{
     width: 85%;
     float: right;
-    color: #19674B;
+    color: #EEF0F6;
   font-family: 'Hind';
   font-size: 18px;
   font-style: normal;
@@ -1628,3 +1633,107 @@ line-height: 93.5%;
   margin-bottom: 80px;
   }
   
+
+
+
+
+
+
+  .realidade_mobile{
+    width: 100%;
+    height: auto;
+    background-color: #0B352E;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    margin-top: -3vh;
+  }
+
+  .realidades_sticky_mobile{
+    position: absolute;
+    width: 100%;
+    top: 0;
+  }
+
+  .div_svg_realidades_mobile{
+    position: absolute;
+    width: 100%;
+    height: 400vh;
+  }
+  
+  .svg_realidades_mobile{
+
+    margin-top: 300px;
+    position: sticky;
+    top: -20px;
+    left: 0;
+  }
+
+  .textos_mobile{
+    position: sticky;
+    top: 5vh;
+
+    height: 100vh;
+    width: 80%;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+
+    opacity: 0;
+  }
+  .textos2_mobile{
+    position: sticky;
+    top: 5vh;
+
+    height: 100vh;
+    width: 80%;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+
+    opacity: 0;
+  }
+  .textos3_mobile{
+    position: sticky;
+    top: 5vh;
+
+    height: 100vh;
+    width: 80%;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+
+    opacity: 0;
+  }
+
+  .titulo_realidades_mobile{
+    color: #F3FCF4;
+    font-family: 'Pilcrow Rounded', sans-serif;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 97%; /* 93.12px */
+    letter-spacing: -3.36px;
+
+    margin: 0;
+  }
+
+  .texto_realidades_mobile{
+    color: #F3FCF4;
+    font-family: 'Hind', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 99%; /* 35.64px */
+    letter-spacing: -1.26px;
+
+    width: 80%;
+  }
