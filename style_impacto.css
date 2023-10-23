@@ -1641,7 +1641,7 @@ line-height: 93.5%;
 
   .realidade_mobile{
     width: 100%;
-    height: auto;
+    height: 400vh;
     background-color: #0B352E;
 
     display: flex;
