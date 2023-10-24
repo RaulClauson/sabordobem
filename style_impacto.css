@@ -1544,6 +1544,7 @@ line-height: 93.5%;
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
   }
   .titulo_inicio_mobile{
     width: 90%;
@@ -1637,9 +1638,7 @@ line-height: 93.5%;
 
 
 
-
-
-  .realidade_mobile{
+  .realidades2{
     width: 100%;
     height: 400vh;
     background-color: #0B352E;
@@ -1647,32 +1646,28 @@ line-height: 93.5%;
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin: 0;
+    overflow: hidden;
     margin-top: -3vh;
   }
 
-  .realidades_sticky_mobile{
-    position: absolute;
-    width: 100%;
+  .realidades_sticky2{
+    position: relative;
+    width: 90%;
+    height: 100vh;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
     top: 0;
-  }
-
-  .div_svg_realidades_mobile{
-    position: absolute;
-    width: 100%;
-    height: 400vh;
+    overflow: hidden;
   }
   
   .svg_realidades_mobile{
-
-    margin-top: 300px;
-    position: sticky;
-    top: -20px;
-    left: 0;
+    position: absolute;
+    margin-top: -3vh;
   }
 
-  .textos_mobile{
-    position: sticky;
+  .textos4{
+    position: absolute;
     top: 5vh;
 
     height: 100vh;
@@ -1685,8 +1680,8 @@ line-height: 93.5%;
 
     opacity: 0;
   }
-  .textos2_mobile{
-    position: sticky;
+  .textos5{
+    position: absolute;
     top: 5vh;
 
     height: 100vh;
@@ -1699,8 +1694,8 @@ line-height: 93.5%;
 
     opacity: 0;
   }
-  .textos3_mobile{
-    position: sticky;
+  .textos6{
+    position: absolute;
     top: 5vh;
 
     height: 100vh;
@@ -1712,28 +1707,45 @@ line-height: 93.5%;
     flex-direction: column;
 
     opacity: 0;
+  }
+  .textos7{
+    margin: 0;
+    position: absolute;
+  }
+  .textos8{
+    margin: 0;
+    position: absolute;
+  }
+  .textos9{
+    margin: 0;
+    position: absolute;
   }
 
   .titulo_realidades_mobile{
-    color: #F3FCF4;
-    font-family: 'Pilcrow Rounded', sans-serif;
-    font-size: 96px;
+    color: #EEF0F6;
+    font-family: Pilcrow Rounded;
+    font-size: 46px;
     font-style: normal;
     font-weight: 900;
-    line-height: 97%; /* 93.12px */
-    letter-spacing: -3.36px;
+    line-height: 97%; /* 44.62px */
+    letter-spacing: -1.61px;
 
     margin: 0;
+    width: 85%;
   }
 
   .texto_realidades_mobile{
-    color: #F3FCF4;
-    font-family: 'Hind', sans-serif;
-    font-size: 36px;
+    color: #EEF0F6;
+    font-family: Hind;
+    font-size: 18px;
     font-style: normal;
     font-weight: 700;
-    line-height: 99%; /* 35.64px */
-    letter-spacing: -1.26px;
+    line-height: 99%; /* 17.82px */
+    letter-spacing: -0.63px;
 
-    width: 80%;
+    width: 85%;
   }
+
+
+
+

@@ -1229,3 +1229,197 @@ gsap.to(".historia_mobile", {
     smooth: true,
     duration: 0.3
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// MOBILE IMPACTO //
+
+gsap.to(".svg_realidades_mobile", {
+    scrollTrigger:{
+        trigger: ".svg_realidades_mobile",
+        start: "105% bottom",
+        end: "400% bottom",
+        scrub: 1,
+        pin:true,
+    },
+    ease:"none",
+    smooth: true,
+    duration: 0.3
+});
+
+gsap.to(".realidades_sticky2", {
+    scrollTrigger:{
+        trigger: ".realidades_sticky2",
+        start: "0% top",
+        end: "400% top",
+        scrub: 1,
+        pin:true,
+    },
+    ease:"none",
+    smooth: true,
+    duration: 0.3
+});
+
+gsap.to(".textos4", {
+    scrollTrigger:{
+        trigger: ".realidades2",
+        start: "0% top",
+        end: "33% top",
+        toggleActions: "restart none none reverse",
+    },
+    top: "0vh",
+    opacity: 1,
+    smooth: true,
+    ease: "power4.inOut",
+    delay:0.2,
+    duration: 1
+});
+
+gsap.to(".textos5", {
+    scrollTrigger:{
+        trigger: ".realidades2",
+        start: "33% top",
+        end: "66% top",
+        toggleActions: "restart none none reverse",
+    },
+    top: "0vh",
+    opacity: 1,
+    smooth: true,
+    ease: "power4.inOut",
+    delay:0.2,
+    duration: 1
+});
+
+gsap.to(".textos6", {
+    scrollTrigger:{
+        trigger: ".realidades2",
+        start: "66% top",
+        end: "100% top",
+        toggleActions: "restart none none reverse",
+    },
+    top: "0vh",
+    opacity: 1,
+    smooth: true,
+    ease: "power4.inOut",
+    delay:0.2,
+    duration: 1
+});
+
+
+gsap.to(".textos7", {
+    scrollTrigger:{
+        trigger: ".realidades2",
+        start: "33% top",
+        end: "33% top",
+        toggleActions: "restart none none reverse",
+    },
+    marginTop: "-15vh",
+    opacity: 0,
+    smooth: true,
+    ease: "power4.inOut",
+    duration: 1
+});
+
+gsap.to(".textos8", {
+    scrollTrigger:{
+        trigger: ".realidades2",
+        start: "66% top",
+        end: "66% top",
+        toggleActions: "restart none none reverse",
+    },
+    marginTop: "-15vh",
+    opacity: 0,
+    smooth: true,
+    ease: "power4.inOut",
+    duration: 1
+});
+
+gsap.to(".textos9", {
+    scrollTrigger:{
+        trigger: ".realidades2",
+        start: "100% top",
+        end: "100% top",
+        toggleActions: "restart none none reverse",
+    },
+    marginTop: "-15vh",
+    opacity: 0,
+    smooth: true,
+    ease: "power4.inOut",
+    duration: 1
+});
