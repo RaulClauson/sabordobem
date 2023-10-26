@@ -1314,7 +1314,7 @@ gsap.to(".svg_realidades_mobile", {
     scrollTrigger:{
         trigger: ".svg_realidades_mobile",
         start: "105% bottom",
-        end: "400% bottom",
+        end: "260% bottom",
         scrub: 1,
         pin:true,
     },
@@ -1327,7 +1327,7 @@ gsap.to(".realidades_sticky2", {
     scrollTrigger:{
         trigger: ".realidades_sticky2",
         start: "0% top",
-        end: "400% top",
+        end: "400% bottom",
         scrub: 1,
         pin:true,
     },
@@ -1339,8 +1339,8 @@ gsap.to(".realidades_sticky2", {
 gsap.to(".textos4", {
     scrollTrigger:{
         trigger: ".realidades2",
-        start: "0% top",
-        end: "33% top",
+        start: "0% bottom",
+        end: "33% bottom",
         toggleActions: "restart none none reverse",
     },
     top: "0vh",
@@ -1354,8 +1354,8 @@ gsap.to(".textos4", {
 gsap.to(".textos5", {
     scrollTrigger:{
         trigger: ".realidades2",
-        start: "33% top",
-        end: "66% top",
+        start: "33% bottom",
+        end: "66% bottom",
         toggleActions: "restart none none reverse",
     },
     top: "0vh",
@@ -1369,8 +1369,8 @@ gsap.to(".textos5", {
 gsap.to(".textos6", {
     scrollTrigger:{
         trigger: ".realidades2",
-        start: "66% top",
-        end: "100% top",
+        start: "66% bottom",
+        end: "100% bottom",
         toggleActions: "restart none none reverse",
     },
     top: "0vh",
@@ -1385,8 +1385,8 @@ gsap.to(".textos6", {
 gsap.to(".textos7", {
     scrollTrigger:{
         trigger: ".realidades2",
-        start: "33% top",
-        end: "33% top",
+        start: "33% bottom",
+        end: "33% bottom",
         toggleActions: "restart none none reverse",
     },
     marginTop: "-15vh",
@@ -1399,8 +1399,8 @@ gsap.to(".textos7", {
 gsap.to(".textos8", {
     scrollTrigger:{
         trigger: ".realidades2",
-        start: "66% top",
-        end: "66% top",
+        start: "66% bottom",
+        end: "66% bottom",
         toggleActions: "restart none none reverse",
     },
     marginTop: "-15vh",
@@ -1413,8 +1413,8 @@ gsap.to(".textos8", {
 gsap.to(".textos9", {
     scrollTrigger:{
         trigger: ".realidades2",
-        start: "100% top",
-        end: "100% top",
+        start: "100% bottom",
+        end: "100% bottom",
         toggleActions: "restart none none reverse",
     },
     marginTop: "-15vh",
@@ -1422,4 +1422,31 @@ gsap.to(".textos9", {
     smooth: true,
     ease: "power4.inOut",
     duration: 1
+});
+
+gsap.to(".noticias_verde2", {
+    scrollTrigger:{
+        trigger: ".noticias_verde2",
+        start: "0% bottom",
+        end: "50% bottom",
+        scrub: 1,
+    },
+    width:"100%",
+    ease:"none",
+    smooth: true,
+    duration: 0.3
+});
+gsap.to(".fundo_frase_impacto_mobile", {
+    scrollTrigger:{
+        trigger: ".fundo_frase_impacto_mobile",
+        start: "0% top",
+        end: "130% bottom",
+        scrub: 1,
+        markers:true,
+        pin:true,
+    },
+    backgroundColor:"#04A96E",
+    ease:"none",
+    smooth: true,
+    duration: 0.3
 });

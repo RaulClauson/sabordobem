@@ -1648,6 +1648,7 @@ line-height: 93.5%;
     flex-direction: column;
     overflow: hidden;
     margin-top: -3vh;
+    position: relative;
   }
 
   .realidades_sticky2{
@@ -1671,7 +1672,7 @@ line-height: 93.5%;
     top: 5vh;
 
     height: 100vh;
-    width: 85%;
+    width: 90%;
 
     display: flex;
     align-items: flex-start;
@@ -1685,7 +1686,7 @@ line-height: 93.5%;
     top: 5vh;
 
     height: 100vh;
-    width: 85%;
+    width: 90%;
 
     display: flex;
     align-items: flex-start;
@@ -1699,7 +1700,7 @@ line-height: 93.5%;
     top: 5vh;
 
     height: 100vh;
-    width: 85%;
+    width: 90%;
 
     display: flex;
     align-items: flex-start;
@@ -1749,3 +1750,430 @@ line-height: 93.5%;
 
 
 
+  .noticias2{
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+
+    background-color: #0B352E;
+  }
+
+  .noticias_verde2{
+    background-color: #3FC46D;
+    border-radius: 50px 50px 0px 0px;
+    width: 90%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .noticias_inicio2{
+    width: 90%;
+    height: auto;
+    
+  }
+
+  .noticias_inicio_titulo2{
+    color: #FFF;
+    font-family: Pilcrow Rounded;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88%; /* 56.32px */
+    letter-spacing: -2.24px;
+    
+  }
+
+  .noticias_inicio_texto2{
+    color: #FFF;
+    font-family: Hind;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 99%; /* 23.76px */
+    letter-spacing: -0.84px;
+
+    width: 100%;
+  }
+
+
+  .impacto_mobile{
+    background-color: #3FC46D;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 85px;
+  }
+
+  .caixa_impacto_mobile{
+    border-radius: 15px;
+    background: #FFF;
+    width: 90%;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 24px;
+  }
+  .titulos_impacto_mobile{
+    margin-top: 48px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+  }
+  .titulo_impacto_mobile{
+    color: #0B352E;
+font-family: Pilcrow Rounded;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: 88%; /* 42.24px */
+letter-spacing: -1.68px;
+margin: 0;
+  }
+  .divide_mobile{
+    background-color: #04A96E;
+    width: 80%;
+    height: 5px;
+    border-radius: 50px;
+    margin-top: 34px;
+    margin-bottom: 34px;
+  }
+  .texto_impacto_mobile{
+    color: #0B352E;
+font-family: Hind;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.84px;
+margin: 0;
+margin-bottom: 47px;
+width: 80%;
+  }
+
+
+
+
+
+  .frase_impacto_mobile{
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    flex-direction: column;
+    background-color: #3FC46D;
+  }
+  .frase{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Pilcrow Rounded;
+    font-size: 10vh;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 150%; /* 112.5px */
+    letter-spacing: -2.625px;
+    z-index: 2;
+    margin-top: 20vh;
+
+width: 90%;
+  }
+  .fundo_frase_impacto_mobile{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background-color: #3FC46D;
+    z-index: 1;
+  }
+
+
+
+
+  .antes_rodape_mobile{
+    z-index: 20;
+    margin-top: 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: #04A96E;
+  }
+  .antes_rodape_mobile_dark{
+    z-index: 20;
+    margin-top: 45px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: #0B352E;
+  }
+  .verde_antes_rodape_mobile{
+    width: 90%;
+    height: 479px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    background: url(img/rodape_impacto_mobile.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+
+    border-radius: 20px;
+  }
+  .verde_antes_rodape_mobile_dark{
+    width: 90%;
+    height: auto;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    background-color: #19674B;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    border-radius: 20px;
+  }
+  .titulo_antes_rodape_mobile{
+    margin-top: 48px;
+    color: #04A96E;
+text-align: left;
+font-family: 'Pilcrow Rounded', sans-serif;
+font-size: 40px;
+font-style: normal;
+font-weight: 900;
+line-height: 93.5%; /* 37.4px */
+
+margin-bottom: 45px;
+  }
+  .texto_antes_rodape_mobile{
+    margin-top: 0;
+    color: #FFF;
+    width: 90%;
+text-align: center;
+font-family: 'Hind';
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 93.5%; /* 16.83px */
+
+margin-bottom: 55px;
+  }
+  .button_antes_rodape_mobile{
+    width: 85%;
+height: 69px;
+flex-shrink: 0;
+border-radius: 23px;
+border: 6px solid #FFF;
+background: #FFF;
+
+color: #19674B;
+text-align: center;
+font-family: 'Pilcrow Rounded', sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 900;
+line-height: 93.5%; /* 22.44px */
+
+display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom: 33px;
+
+text-decoration: none;
+  }
+  .button_antes_rodape_mobile_dark{
+    width: 85%;
+height: 69px;
+flex-shrink: 0;
+border-radius: 23px;
+border: 6px solid #CBF6C0;
+background: #CBF6C0;
+
+color: #19674B;
+text-align: center;
+font-family: 'Pilcrow Rounded', sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 900;
+line-height: 93.5%; /* 22.44px */
+
+display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom: 33px;
+
+text-decoration: none;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .rodape_mobile{
+    margin-top: -20px;
+    position: relative;
+    z-index: -100;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #19674B;
+  }
+
+  .titulo_rodape_mobile{
+
+    margin-bottom: 25px;
+    margin-top: 65px;
+    width: 90%;
+    text-align: left;
+    color: #EDFEEE;
+    font-family: 'Pilcrow Rounded', sans-serif;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: 93.5%; /* 44.88px */
+  }
+
+  .sub_titulo_rodape_mobile{
+    margin-top: 0;
+    margin-bottom: 27px;
+    width: 90%;
+    text-align: left;
+    color: #EDFEEE;
+font-family: 'Hind';
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 93.5%; /* 16.83px */
+  }
+
+  .button_rodape_mobile{
+    width: 90%;
+height: 71px;
+flex-shrink: 0;
+border-radius: 23px;
+border: 6px solid #EDFEEE;
+background: #EDFEEE;
+
+color: #19674B;
+text-align: center;
+font-family: 'Pilcrow Rounded', sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 900;
+line-height: 93.5%; /* 18.7px */
+
+display: flex;
+align-items: center;
+justify-content: center;
+text-decoration: none;
+  }
+
+  .links_rodape_mobile{
+    width: 90%;
+    margin-top: 70px;
+  }
+  .link_rodape_mobile{
+    color: #EDFEEE;
+    font-family: 'Pilcrow Rounded', sans-serif;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+
+text-decoration: none;
+  }
+
+
+  .textos_rodape_mobile{
+    border-top: 1px solid #6EA38C;
+    margin-top: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .contato_rodape_mobile{
+    margin-top: 25px;
+    width: 90%;
+    color: #98C2AD;
+    font-family: 'Pilcrow Rounded', sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+margin-bottom: 0;
+  }
+  .contato_rodape_mobile2{
+    width: 90%;
+    color: #98C2AD;
+font-family: 'Hind';
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 0;
+  }
+
+  .fim_rodape_mobile{
+    width: 90%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 47px;
+  }
+  .logo_rodape_mobile{
+    width: 20%;
+    background: url(img/logo_rodape.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50% 50%;
+  }
+  .texto_fim_rodape_mobile{
+    width: 75%;
+height: 100%;
+flex-shrink: 0;
+border-radius: 16px;
+background: #EDFEEE;
+
+color: #19674B;
+text-align: center;
+font-family: 'Pilcrow Rounded', sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 900;
+line-height: 90.5%; /* 21.72px */
+margin:0;
+
+display: flex;
+align-items: center;
+justify-content: center;
+  }
