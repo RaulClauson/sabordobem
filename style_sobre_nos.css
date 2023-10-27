@@ -2621,3 +2621,47 @@ letter-spacing: -0.16px;
   background-repeat: no-repeat;
   border-radius: 25px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+section{
+  height: 84vh;
+  width: 100%;
+  position: absolute;
+  z-index: 200;
+}
+
+
+.section_mobile1 {
+  background-color: transparent;
+}
+.section_mobile2 {
+  background-color: transparent;
+  margin-top: 150%;
+}
+.section_mobile3 {
+  background-color: transparent;
+  margin-top: 300%;
+}
+.section_mobile4 {
+  background-color: transparent;
+  margin-top: 430%;
+}
+.section_mobile5 {
+  background-color: transparent;
+  margin-top: 550%;
+}
