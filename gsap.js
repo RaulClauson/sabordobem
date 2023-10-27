@@ -1438,9 +1438,9 @@ gsap.to(".noticias_verde2", {
 });
 gsap.to(".fundo_frase_impacto_mobile", {
     scrollTrigger:{
-        trigger: ".fundo_frase_impacto_mobile",
+        trigger: ".frase_impacto_mobile",
         start: "0% top",
-        end: "130% bottom",
+        end: "100% bottom",
         scrub: 1,
         markers:true,
         pin:true,
