@@ -2226,6 +2226,9 @@ body {
         ul{
           padding-inline-start: 0;
         }
+        #menu_mobile_hide{
+          transition: 0.8s;
+        }
         .header ul.menu {
           position: relative;
           display: block;
@@ -2265,10 +2268,21 @@ body {
           font-family: 'Pilcrow Rounded', sans-serif;
           font-weight: 100;
           text-decoration: none;
-          font-size: 24px;
+          font-size: 26px;
           line-height: 1;
           font-weight: 200;
-          width: 100%;
+          max-width: 100%;
+          padding: 5px;
+          padding-left: 0;
+          padding-right: 0;
+          background-color: #3FC46D;
+          border-radius: 8px;
+          transition: 0.5s;
+        }
+        .header ul.menu li.menu-item .link_mobile:hover {
+          padding-left: 8px;
+          background-color: #F3FCF4;
+          color: #3FC46D;
         }
         .header ul.menu li.menu-item .link_mobile2 {
           display: block;
@@ -2289,7 +2303,7 @@ body {
           margin-top: 30px;
         }
         .header.menu-opened {
-          height: 310px;
+          height: 355px;
           background-color: #3FC46D;
           transition: all 0.3s ease-in, background 0.5s ease-in;
           display: block;

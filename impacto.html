@@ -43,8 +43,8 @@
       </div>
       <ul class="menu">
         <li class="menu-item"><a href="index.html" class="link_mobile">Início</a></li>
-        <li class="menu-item"><a href="desenvolvimento.html" class="link_mobile">Impacto</a></li>
-        <li class="menu-item"><a href="" class="link_mobile">Sobre nós</a></li>
+        <li class="menu-item"><a href="impacto.html" class="link_mobile">Impacto</a></li>
+        <li class="menu-item"><a href="sobre_nos.html" class="link_mobile">Sobre nós</a></li>
         <li class="menu-item"><a href="desenvolvimento.html" class="link_mobile">Baixe o app</a></li>
         <section class="main2 main2--light" id="main2">
           <button type="button" id="switch2">
@@ -202,8 +202,9 @@
   </svg>
   
 <div class="frase_impacto_mobile">
-  <div class="fundo_frase_impacto_mobile"></div>
-  <p class="frase">Ao se juntar<br>a nós, você<br>estará<br>alimentando<br>o futuro.<br>Cada ação,<br>por menor<br>que seja, faz<br>a diferença.</p>
+  <div class="fundo_frase_impacto_mobile">
+    <p class="frase">Ao se juntar<br>a nós, você<br>estará<br>alimentando<br>o futuro.<br>Cada ação,<br>por menor<br>que seja, faz<br>a diferença.</p>
+  </div>
 </div>
 
 
@@ -620,6 +621,21 @@
 
 
 
+<!-- Menu mobile hide on scroll -->
+
+
+<script>
+  var prevScrollpos = window.pageYOffset;
+  window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+    if (prevScrollpos > currentScrollPos) {
+      document.getElementById("menu_mobile_hide").style.top = "18px";
+    } else {
+      document.getElementById("menu_mobile_hide").style.top = "-380px";
+    }
+    prevScrollpos = currentScrollPos;
+  }
+  </script>
 
 
 

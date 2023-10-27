@@ -1438,14 +1438,27 @@ gsap.to(".noticias_verde2", {
 });
 gsap.to(".fundo_frase_impacto_mobile", {
     scrollTrigger:{
-        trigger: ".frase_impacto_mobile",
+        trigger: ".fundo_frase_impacto_mobile",
         start: "0% top",
-        end: "100% bottom",
+        end: "100% top",
         scrub: 1,
         markers:true,
         pin:true,
     },
     backgroundColor:"#04A96E",
+    ease:"none",
+    smooth: true,
+    duration: 0.3
+});
+gsap.to(".frase", {
+    scrollTrigger:{
+        trigger: ".fundo_frase_impacto_mobile",
+        start: "0% top",
+        end: "100% top",
+        scrub: 1,
+        markers:true,
+    },
+    marginTop: "-220%",
     ease:"none",
     smooth: true,
     duration: 0.3

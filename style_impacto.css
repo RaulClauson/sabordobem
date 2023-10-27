@@ -1864,26 +1864,23 @@ width: 80%;
 
   .frase_impacto_mobile{
     width: 100%;
-    height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: baseline;
-    flex-direction: column;
+    height: 200vh;
     background-color: #3FC46D;
   }
   .frase{
     color: rgba(255, 255, 255, 0.60);
     text-align: center;
     font-family: Pilcrow Rounded;
-    font-size: 10vh;
+    font-size: 8vh;
     font-style: normal;
     font-weight: 900;
     line-height: 150%; /* 112.5px */
     letter-spacing: -2.625px;
     z-index: 2;
-    margin-top: 20vh;
 
-width: 90%;
+    margin-top: 220%;
+
+    width: 90%;
   }
   .fundo_frase_impacto_mobile{
     width: 100%;
@@ -1891,6 +1888,11 @@ width: 90%;
     position: absolute;
     background-color: #3FC46D;
     z-index: 1;
+    overflow: hidden;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
 
@@ -1904,7 +1906,7 @@ width: 90%;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 20px;
+    border-radius: 0px 0px 20px 20px;
     background-color: #04A96E;
   }
   .antes_rodape_mobile_dark{
