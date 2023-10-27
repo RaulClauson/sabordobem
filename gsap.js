@@ -1340,7 +1340,7 @@ gsap.to(".textos4", {
     scrollTrigger:{
         trigger: ".realidades2",
         start: "0% bottom",
-        end: "60% bottom",
+        end: "50% bottom",
         toggleActions: "restart none none reverse",
         markers:true,
     },
@@ -1355,8 +1355,8 @@ gsap.to(".textos4", {
 gsap.to(".textos5", {
     scrollTrigger:{
         trigger: ".realidades2",
-        start: "60% bottom",
-        end: "85% bottom",
+        start: "50% bottom",
+        end: "75% bottom",
         toggleActions: "restart none none reverse",
     },
     top: "0vh",
@@ -1370,8 +1370,8 @@ gsap.to(".textos5", {
 gsap.to(".textos6", {
     scrollTrigger:{
         trigger: ".realidades2",
-        start: "85% bottom",
-        end: "120% bottom",
+        start: "75% bottom",
+        end: "125% bottom",
         toggleActions: "restart none none reverse",
     },
     top: "0vh",
@@ -1386,8 +1386,8 @@ gsap.to(".textos6", {
 gsap.to(".textos7", {
     scrollTrigger:{
         trigger: ".realidades2",
-        start: "60% bottom",
-        end: "60% bottom",
+        start: "50% bottom",
+        end: "50% bottom",
         toggleActions: "restart none none reverse",
         markers:true,
     },
@@ -1401,8 +1401,8 @@ gsap.to(".textos7", {
 gsap.to(".textos8", {
     scrollTrigger:{
         trigger: ".realidades2",
-        start: "85% bottom",
-        end: "85% bottom",
+        start: "75% bottom",
+        end: "75% bottom",
         toggleActions: "restart none none reverse",
     },
     marginTop: "-15vh",
@@ -1415,8 +1415,8 @@ gsap.to(".textos8", {
 gsap.to(".textos9", {
     scrollTrigger:{
         trigger: ".realidades2",
-        start: "120% bottom",
-        end: "120% bottom",
+        start: "125% bottom",
+        end: "125% bottom",
         toggleActions: "restart none none reverse",
     },
     marginTop: "-15vh",
