@@ -1,6 +1,129 @@
 ScrollTrigger.config({
     autoRefreshEvents: "visibilitychange,DOMContentLoaded,load" // notice "resize" isn't in the list
   });
+
+  gsap.to(".antes_continue", {
+    scrollTrigger:{
+        trigger: ".antes_continue",
+        start: "1000% top",
+        end: "1000% 0",
+        toggleActions: "restart none none reverse",
+    },
+    marginTop: "15vh",
+    opacity: 0,
+    ease: "back.inOut(1.7)",
+    smooth: true,
+    duration: 0.8,
+});
+
+gsap.to(".posi_continue", {
+    scrollTrigger:{
+        trigger: ".posi_continue",
+        start: "0% top",
+        end: "150% 0",
+        pin:true,
+        scrub: 1,
+    },
+    ease:"none",
+    smooth: true,
+    duration: 0.3
+});
+
+gsap.to(".antes_continue2", {
+    scrollTrigger:{
+        trigger: ".antes_continue2",
+        start: "-1300% top",
+        end: "-500% 0",
+        toggleActions: "restart reverse reverse reverse",
+    },
+    bottom: "1.5%",
+    opacity: 1,
+    display:"block",
+    ease: "back.inOut(1.7)",
+    smooth: true,
+    duration: 0.8,
+});
+
+
+gsap.to(".antes_continue3", {
+    scrollTrigger:{
+        trigger: ".posi_continue3",
+        start: "0% top",
+        end: "2% 0",
+        toggleActions: "restart none none reverse",
+    },
+    marginTop: "15vh",
+    opacity: 0,
+    ease: "back.inOut(1.7)",
+    smooth: true,
+    duration: 0.8,
+});
+
+
+
+
+gsap.to(".posi_continue4", {
+    scrollTrigger:{
+        trigger: ".posi_continue4",
+        start: "0% top",
+        end: "450% 80%",
+        pin:true,
+        scrub: 1,
+        markers:true,
+    },
+    ease:"none",
+    smooth: true,
+    duration: 0.3
+});
+
+gsap.to(".antes_continue4", {
+    scrollTrigger:{
+        trigger: ".antes_continue4",
+        start: "-1300% top",
+        end: "4800% 80%",
+        toggleActions: "restart reverse reverse reverse",
+        markers:true,
+    },
+    bottom: "1.5%",
+    opacity: 1,
+    display:"block",
+    ease: "back.inOut(1.7)",
+    smooth: true,
+    duration: 0.8,
+});
+
+gsap.to(".posi_continue5", {
+    scrollTrigger:{
+        trigger: ".posi_continue5",
+        start: "0% top",
+        end: "300% 80%",
+        pin:true,
+        scrub: 1,
+        markers:true,
+    },
+    ease:"none",
+    smooth: true,
+    duration: 0.3
+});
+
+gsap.to(".antes_continue5", {
+    scrollTrigger:{
+        trigger: ".antes_continue5",
+        start: "-1300% top",
+        end: "2400% 80%",
+        toggleActions: "restart reverse reverse reverse",
+        markers:true,
+    },
+    bottom: "1.5%",
+    opacity: 1,
+    display:"block",
+    ease: "back.inOut(1.7)",
+    smooth: true,
+    duration: 0.8,
+});
+
+
+
 gsap.to(".links", {
     scrollTrigger:{
         trigger: ".links",
