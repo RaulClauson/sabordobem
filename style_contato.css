@@ -376,7 +376,7 @@ margin-top: 0;
         margin-left: 5%;
         margin-right: 5%;
         margin-top: 5%;
-        height: 75vh;
+        height: auto;
         display: block;
       }
       .titulo_form{
@@ -464,7 +464,7 @@ margin-top: 0;
         padding-right: 8%;
         padding-top: 1.5%;
         padding-bottom: 3%;
-        margin-top: 1%;
+        margin-top: 14px;
       }
       
     .titu_mais{
