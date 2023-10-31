@@ -1,13 +1,14 @@
+
 html{
     width: 100%;
-    height: 100vh;
+    max-height: 100vh;
     overflow: hidden;
     margin: 0;
     padding: 0; 
 }
 body{
     width: 100%;
-    height: 100vh;
+    max-height: 100vh;
     overflow: hidden;
     margin: 0;
     padding: 0;
@@ -49,6 +50,12 @@ margin-left: 20px;
 
 
 .tudo_desktop_baixe *{
+    overflow: hidden;
+  }
+
+  .tudo_desktop_baixe{
+    width: 100%;
+    max-height: 100vh;
     overflow: hidden;
   }
 
@@ -118,15 +125,8 @@ letter-spacing: -1.12px;
     z-index: -1;
     overflow: hidden;
   }
-  .svg_beixee{
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-  }
   .svg_baixe{
-    position: absolute;
+    position: relative;
     z-index: -1;
     min-width: 1376px;
     min-height: 1370px;
@@ -134,7 +134,7 @@ letter-spacing: -1.12px;
     animation-duration: 30s;
     animation-iteration-count: infinite;
     overflow: hidden;
-    
+    animation-direction: alternate;
   }
   @keyframes svg_baixe2 {
     0%{
@@ -157,3 +157,149 @@ letter-spacing: -1.12px;
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
     box-shadow: 0px 0px 82px 0px rgba(0, 0, 0, 0.10);
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media(max-width:999px) {
+    .titulo_contato{
+        color: #04A96E;
+    font-family: Pilcrow Rounded;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88%; /* 42.24px */
+    margin: 0;
+    margin-left: 5px;
+      }
+    .voltar2{
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 5%;
+        max-width: 88%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+    .volta{
+        background: url(img/voltar_contato.png);
+        background-size: cover;
+        background-position: 50% 50%;
+        border-radius: 10px;
+        width: 5vh;
+        height: 5vh;
+      }
+      .divide_baixe{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .esquerda_baixe{
+        width: 90%;
+        height: 60%;
+        margin: 0;
+        overflow: visible;
+      }
+      .titu_baixe{
+        color: #0B352E;
+    font-family: Pilcrow Rounded;
+    font-size: 8vh;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-bottom: 0;
+    margin-top: 1.2em;
+      }
+      .sub_baixe{
+        color: #0B352E;
+    font-family: Hind;
+    font-size: 2.5vh;
+    font-style: normal;
+    text-align: center;
+    font-weight: 700;
+    line-height: auto; /* 28.16px */
+    letter-spacing: -1.12px;
+    margin-top: 0;
+      }
+      .you_baixe{
+        color: #0B352E;
+    font-family: Pilcrow Rounded;
+     font-size: 2.5vh;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88%; /* 28.16px */
+    letter-spacing: -1.12px;
+      }
+      .video{
+        width: 100%;
+        height: 205px;
+        flex-shrink: 0;
+        border-radius: 20px;
+        background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+        box-shadow: 0px 0px 82px 0px rgba(0, 0, 0, 0.10);
+      }
+      .fundo_baixe{
+        display: none;
+      }
+      .direita_baixe{
+        width: 90%;
+        height: 40%;
+        max-height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        z-index: -1;
+        overflow: hidden;
+      }
+      .svg_beixee{
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+      }
+      .svg_baixe{
+        position: absolute;
+        z-index: -1;
+        min-width: 1376px;
+        min-height: 1370px;
+        animation-name: svg_baixe2;
+        animation-duration: 30s;
+        animation-iteration-count: infinite;
+        overflow: hidden;
+        animation-direction: alternate;
+        margin-top: 30%;
+      }
+      @keyframes svg_baixe2 {
+        0%{
+          transform: rotate(0deg);
+        }
+        100%{
+          transform: rotate(180deg);
+        }
+      }
+      .celular{
+        width: 90%;
+        margin-top: 3%;
+        height: auto;
+        margin-left: 0;
+        position: absolute;
+      }
+      .svg_contato{
+        width: 49px;
+        height: 36.96px;
+      }
+    }
