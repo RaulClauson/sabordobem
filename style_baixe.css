@@ -1,0 +1,159 @@
+html{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    padding: 0; 
+}
+body{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.voltar2{
+    margin-left: 3%;
+    margin-right: 4%;
+    margin-top: 2%;
+    width: 93%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    z-index: 10000;
+  }
+  .volta{
+    background: url(img/voltar_contato.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 20px;
+    width: 9vh;
+    height: 9vh;
+  }
+  .titulo_contato{
+    color: #04A96E;
+font-family: Pilcrow Rounded;
+font-size: 4vh;
+font-style: normal;
+font-weight: 900;
+line-height: 88%; /* 42.24px */
+margin: 0;
+margin-left: 20px;
+  }
+
+
+
+
+.tudo_desktop_baixe *{
+    overflow: hidden;
+  }
+
+  .tudo_desktop_baixe{
+    width: 100%;
+    max-height: 100vh;
+    overflow: hidden;
+  }
+
+  .divide_baixe{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+  }
+
+  .fundo_baixe{
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    z-index: -1;
+  }
+
+  .esquerda_baixe{
+    width: 50%;
+    height: 100%;
+    z-index: 10;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .titu_baixe{
+    color: #0B352E;
+font-family: Pilcrow Rounded;
+font-size: 13vh;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+margin-bottom: 0;
+  }
+  .sub_baixe{
+    color: #0B352E;
+font-family: Hind;
+font-size: 3.4vh;
+font-style: normal;
+font-weight: 700;
+line-height: auto; /* 28.16px */
+letter-spacing: -1.12px;
+margin-top: 0;
+  }
+  .you_baixe{
+    color: #0B352E;
+font-family: Pilcrow Rounded;
+font-size: 3.4vh;
+font-style: normal;
+font-weight: 900;
+line-height: 88%; /* 28.16px */
+letter-spacing: -1.12px;
+  }
+  .direita_baixe{
+    width: 50%;
+    max-height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: -1;
+    overflow: hidden;
+  }
+  .svg_beixee{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  .svg_baixe{
+    position: absolute;
+    z-index: -1;
+    min-width: 1376px;
+    min-height: 1370px;
+    animation-name: svg_baixe2;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    overflow: hidden;
+    
+  }
+  @keyframes svg_baixe2 {
+    0%{
+      transform: rotate(0deg);
+    }
+    100%{
+      transform: rotate(180deg);
+    }
+  }
+  .celular{
+    height: 100%;
+    margin-left: 13%;
+    position: absolute;
+  }
+  .video{
+    width: 76vh;
+    height: 43vh;
+    flex-shrink: 0;
+    border-radius: 40px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    box-shadow: 0px 0px 82px 0px rgba(0, 0, 0, 0.10);
+  }

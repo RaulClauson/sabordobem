@@ -84,6 +84,17 @@ body {
     justify-content: space-between;
     align-items: center;
   }
+  .voltar2{
+    margin-left: 3%;
+    margin-right: 4%;
+    margin-top: 2%;
+    width: 93%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    z-index: 10000;
+  }
   .volta{
     background: url(img/voltar_contato.png);
     background-size: cover;
@@ -320,9 +331,11 @@ margin-top: 0;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
-    line-height: 88%; /* 17.6px */
+    line-height: 22px; /* 17.6px */
     letter-spacing: -0.7px;
     margin: 0;
+    display: flex;
+    align-items: center;
   }
   .espaco{
     height: 10vh;
@@ -590,3 +603,4 @@ margin-top: 0;
         height: 36.96px;
       }
   }
+
