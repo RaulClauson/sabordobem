@@ -57,6 +57,124 @@ body {
   }
 
 
+    /* ANIMAÇÃO ANTES CARREGAR */
+
+    .carrega{
+      width: 100%;
+      height: 100vh;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;
+  
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      animation: fundo_carregaa3 0.5s 4.3s forwards ease;
+    }
+    @keyframes fundo_carregaa3 {
+      0%{
+        display: block;
+      }
+      99%{
+        display: block;
+      }
+      100%{
+        display: none;
+      }
+    }
+    .carrega2{
+      width: 100%;
+      height: 100vh;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;
+  
+      display: none;
+    }
+    .carrega2_ativa{
+      width: 100%;
+      height: 100vh;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;
+  
+      display: block;
+    }
+    .gif_carrega{
+      position: absolute;
+      z-index: 10000;
+      width: 50vh;
+      animation: fundo_carregaaa 4.3s forwards ease;
+      opacity: 1;
+    }
+    @keyframes fundo_carregaaa {
+      0%{
+        opacity: 0;
+      }
+      5%{
+        opacity: 1;
+      }
+      95%{
+        opacity: 1;
+      }
+      100%{
+        opacity: 0;
+      }
+    }
+  
+    .fundo_carrega{
+      width: 100%;
+      height: 100%;
+      background-color: #19DE6E;
+      position: absolute;
+      top: 0;
+      left: 0;
+      animation: fundo_carregaa 0.5s 4.3s forwards ease;
+      z-index: 1;
+    }
+    @keyframes fundo_carregaa {
+      0%{
+        top: 0;
+      }
+      99%{
+        top: -100vh;
+      }
+      100%{
+        display: none;
+      }
+    }
+    .fundo_carrega2{
+      width: 100%;
+      height: 100%;
+      background-color: #19DE6E;
+      position: absolute;
+      top: 100vh;
+      left: 0;
+      opacity: 1;
+      z-index: 1;
+    }
+    .fundo_carrega2_ativa{
+      width: 100%;
+      height: 100%;
+      background-color: #19DE6E;
+      position: absolute;
+      top: 100vh;
+      left: 0;
+      animation: fundo_carregaa5 1s forwards ease;
+      opacity: 1;
+      z-index: 1;
+    }
+    @keyframes fundo_carregaa5 {
+      0%{
+        top: 100vh;
+      }
+      100%{
+        top: 0vh;
+      }
+    }
   
   
   
@@ -1418,36 +1536,36 @@ width: 90%;
   }
   .main--light {
   }
-  .main--light #switch {
+  .main--light #switch3 {
     background-color: #D4F8D7;
     animation: clickOn 0.5s;
   }
-  .main--light #switch .btn-switch {
+  .main--light #switch3 .btn-switch {
     right: auto;
     left: 9%;
     animation: animationClickOn 0.7s;
   }
-  .main--light #switch .bxs-moon {
+  .main--light #switch3 .bxs-moon {
     animation: rotateOn 0.7s;
   }
-  .main--light #switch .bxs-sun {
+  .main--light #switch3 .bxs-sun {
     animation: shakeOn 0.7s;
   }
   .main--dark {
   }
-  .main--dark #switch {
+  .main--dark #switch3 {
     background-color: #0B352E;
     animation: clickOff 0.5s;
   }
-  .main--dark #switch .btn-switch {
+  .main--dark #switch3 .btn-switch {
     left: auto;
     right: 9%;
     animation: animationClickOff 0.7s;
   }
-  .main--dark #switch .bxs-moon {
+  .main--dark #switch3 .bxs-moon {
     animation: rotateOff 0.7s;
   }
-  .main--dark #switch .bxs-sun {
+  .main--dark #switch3 .bxs-sun {
     animation: shakeOff 0.7s;
   }
   .main .text {
@@ -1487,7 +1605,7 @@ width: 90%;
       left: 5.5rem;
     }
   }
-  .main #switch {
+  .main #switch3 {
     border: none;
     width: 5vw;
     height: 3vw;
@@ -1495,7 +1613,7 @@ width: 90%;
     position: absolute;
     cursor: pointer;
   }
-  .main #switch .btn-switch {
+  .main #switch3 .btn-switch {
     display: block;
     background-color: #fff;
     width: 2.6vw;
@@ -1505,65 +1623,65 @@ width: 90%;
     z-index: 0;
     top: 13%;
   }
-  .main #switch i {
+  .main #switch3 i {
     font-size: 4vw;
     position: absolute;
     z-index: 1;
     top: 26%;
     color: #3FC46D;
   }
-  .main #switch i.bxs-sun {
+  .main #switch3 i.bxs-sun {
     left: 15%;
   }
-  .main #switch i.bxs-moon {
+  .main #switch3 i.bxs-moon {
     right: 15%;
   }
   @media only screen and (max-width: 1130px) {
-    .main #switch {
+    .main #switch3 {
       width: 4rem;
       height: 2rem;
       border-radius: 5rem;
     }
-    .main #switch .btn-switch {
+    .main #switch3 .btn-switch {
       width: 1.8rem;
       height: 1.8rem;
       border-radius: 3rem;
     }
-    .main #switch i {
+    .main #switch3 i {
       font-size: 2.3rem;
       top: 28%;
     }
-    .main #switch i.bxs-sun {
+    .main #switch3 i.bxs-sun {
       left: 16%;
     }
-    .main #switch i.bxs-moon {
+    .main #switch3 i.bxs-moon {
       right: 16%;
     }
   }
   @media only screen and (min-width: 1620px) {
-    .main #switch {
+    .main #switch3 {
       width: 7rem;
       height: 4rem;
       border-radius: 5rem;
     }
-    .main #switch .switch-side--left, .main #switch .switch-side--right {
+    .main #switch3 .switch-side--left, .main #switch3 .switch-side--right {
       width: 7rem;
       height: 4rem;
       border-radius: 4rem;
     }
-    .main #switch .btn-switch {
+    .main #switch3 .btn-switch {
       width: 3rem;
       height: 3rem;
       border-radius: 3vw;
     }
-    .main #switch i {
+    .main #switch3 i {
       font-size: 2rem;
       top: 25%;
     }
-    .main #switch i.bxs-sun {
+    .main #switch3 i.bxs-sun {
       left: 15.5%;
     }
-    .main #switch i.bxs-moon {
+    .main #switch3 i.bxs-moon {
       right: 15.5%;
     }
   }
@@ -3068,4 +3186,40 @@ letter-spacing: -0.16px;
 .section_mobile5 {
   background-color: transparent;
   margin-top: 550%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.missao_dark{
+  background-color: #0B352E;
 }
