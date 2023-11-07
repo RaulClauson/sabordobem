@@ -13,17 +13,12 @@
     <link href="https://api.fontshare.com/v2/css?f[]=pilcrow-rounded@900&display=swap" rel="stylesheet">
     <link href="https://api.fontshare.com/v2/css?f[]=hind@1&display=swap" rel="stylesheet">
     <!--BOXICON-->
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'><link rel="stylesheet" href="./style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <!-- link css -->
     <link rel="stylesheet" href="style_impacto.css">
     <title>Sabor do bem.</title>
 </head>
 <body onload="init()">
-
-  <div class="carrega">
-    <div class="fundo_carrega"></div>
-    <img src="img/carrega.gif" class="gif_carrega" alt="">
-  </div>
 
   <!-- TUDO MOBILE -->
   <div class="tudo_mobile">
@@ -50,8 +45,8 @@
         <li class="menu-item"><a href="impacto.html" class="link_mobile">Impacto</a></li>
         <li class="menu-item"><a href="sobre_nos.html" class="link_mobile">Sobre nós</a></li>
         <li class="menu-item"><a href="baixe.html" class="link_mobile">Baixe o app</a></li>
-        <section class="main2 main2--light" id="main2">
-          <button type="button" id="switch2">
+        <section class="main main--light">
+          <button type="button" class="switch">
             <i class='bx bxs-sun'></i>
             <span class="btn-switch"></span>
             <i class='bx bxs-moon'></i>
@@ -336,13 +331,14 @@
                             <span>Baixe o app</span>
                           </div>
                         </a>
-                        <section class="main main--light" id="main">
-                          <button type="button" id="switch">
-                            <i class='bx bxs-sun'></i>
-                            <span class="btn-switch"></span>
-                            <i class='bx bxs-moon'></i>
-                          </button>
-                        </section>
+                  <!-- partial:index.partial.html -->
+                  <section class="main main--light">
+                    <button type="button" class="switch">
+                      <i class='bx bxs-sun'></i>
+                      <span class="btn-switch"></span>
+                      <i class='bx bxs-moon'></i>
+                    </button>
+                  </section>
                       </div>
               </nav>
   
@@ -628,8 +624,7 @@
   <script  src="script_menu_mobile.js"></script>
   <script  src="script_cursor_track.js"></script>
   <script  src="script_cursor_track2.js"></script>
-  <script  src="script_dark_mode.js"></script>
-  <script  src="animacao.js"></script>
+  <script  src="script_dark_mode_impacto.js"></script>
 
 
 </body>

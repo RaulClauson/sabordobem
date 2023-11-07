@@ -19,7 +19,7 @@ html {
 }
 
 body {
-    margin: 0;
+    margin: 0; 
     padding: 0;
   }
 
@@ -95,7 +95,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    animation: fundo_carregaa3 0.5s 4.3s forwards ease;
+    animation: fundo_carregaa3 0.5s 4s forwards ease;
   }
   @keyframes fundo_carregaa3 {
     0%{
@@ -112,21 +112,29 @@ body {
     position: absolute;
     z-index: 10000;
     width: 50vh;
-    animation: fundo_carregaaa 4.3s forwards ease;
+    animation: fundo_carregaaa 3s forwards ease;
     opacity: 1;
   }
   @keyframes fundo_carregaaa {
     0%{
+      display: none;
       opacity: 0;
     }
-    5%{
+    10%{
+      display: block;
+    }
+    15%{
+      opacity: 1;
+    }
+    90%{
       opacity: 1;
     }
     95%{
-      opacity: 1;
+      opacity: 0;
     }
     100%{
       opacity: 0;
+      display: none;
     }
   }
   @media(max-width:999px){
@@ -134,25 +142,32 @@ body {
       position: absolute;
       z-index: 10000;
       width: 30vh;
-      animation: fundo_carregaaa 4.3s forwards ease;
+      animation: fundo_carregaaa 3s forwards ease;
       opacity: 1;
     }
     @keyframes fundo_carregaaa {
       0%{
+        display: none;
         opacity: 0;
       }
-      5%{
+      10%{
+        display: block;
+      }
+      15%{
+        opacity: 1;
+      }
+      90%{
         opacity: 1;
       }
       95%{
-        opacity: 1;
+        opacity: 0;
       }
       100%{
         opacity: 0;
+        display: none;
       }
     }
   }
-
   .fundo_carrega{
     width: 100%;
     height: 100%;
@@ -160,7 +175,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    animation: fundo_carregaa 0.5s 4.3s forwards ease;
+    animation: fundo_carregaa 0.5s 3s forwards ease;
     z-index: 1;
   }
   @keyframes fundo_carregaa {
@@ -366,8 +381,8 @@ body {
   }
   .btn > * > *:last-child {
     position: absolute;
-    color: #fff;
   }
+
 
   .button {
     --duration: .44s;
@@ -1622,38 +1637,37 @@ body {
         align-items: center;
         justify-content: center;
       }
-      .main--light {
-      }
-      .main--light #switch {
+
+      .main--light .switch {
         background-color: #D4F8D7;
         animation: clickOn 0.5s;
       }
-      .main--light #switch .btn-switch {
+      .main--light .switch .btn-switch {
         right: auto;
         left: 9%;
         animation: animationClickOn 0.7s;
       }
-      .main--light #switch .bxs-moon {
+      .main--light .switch .bxs-moon {
         animation: rotateOn 0.7s;
       }
-      .main--light #switch .bxs-sun {
+      .main--light .switch .bxs-sun {
         animation: shakeOn 0.7s;
       }
       .main--dark {
       }
-      .main--dark #switch {
+      .main--dark .switch {
         background-color: #0B352E;
         animation: clickOff 0.5s;
       }
-      .main--dark #switch .btn-switch {
+      .main--dark .switch .btn-switch {
         left: auto;
         right: 9%;
         animation: animationClickOff 0.7s;
       }
-      .main--dark #switch .bxs-moon {
+      .main--dark .switch .bxs-moon {
         animation: rotateOff 0.7s;
       }
-      .main--dark #switch .bxs-sun {
+      .main--dark .switch .bxs-sun {
         animation: shakeOff 0.7s;
       }
       .main .text {
@@ -1693,7 +1707,7 @@ body {
           left: 5.5rem;
         }
       }
-      .main #switch {
+      .main .switch {
         border: none;
         width: 7rem;
         height: 4rem;
@@ -1701,7 +1715,7 @@ body {
         position: absolute;
         cursor: pointer;
       }
-      .main #switch .btn-switch {
+      .main .switch .btn-switch {
         display: block;
         background-color: #fff;
         width: 3rem;
@@ -1711,65 +1725,64 @@ body {
         z-index: 0;
         top: 13%;
       }
-      .main #switch i {
+      .main .switch i {
         font-size: 2rem;
         position: absolute;
         z-index: 1;
         top: 25%;
         color: #3FC46D;
       }
-      .main #switch i.bxs-sun {
+      .main .switch i.bxs-sun {
         left: 15.5%;
       }
-      .main #switch i.bxs-moon {
+      .main .switch i.bxs-moon {
         right: 15.5%;
       }
       @media only screen and (max-width: 1130px) {
-        .main #switch {
+        .main .switch {
           width: 7rem;
           height: 4rem;
           border-radius: 5rem;
         }
-        .main #switch .btn-switch {
+        .main .switch .btn-switch {
           width: 3rem;
           height: 3rem;
           border-radius: 3vw;
         }
-        .main #switch i {
+        .main .switch i {
           font-size: 2rem;
           top: 25%;
         }
-        .main #switch i.bxs-sun {
-          right: 15.5%;
+        .main .switch i.bxs-sun {
         }
-        .main #switch i.bxs-moon {
+        .main .switch i.bxs-moon {
           right: 15.5%;
         }
       }
       @media only screen and (min-width: 1620px) {
-        .main #switch {
+        .main .switch {
           width: 7rem;
           height: 4rem;
           border-radius: 5rem;
         }
-        .main #switch .switch-side--left, .main #switch .switch-side--right {
+        .main .switch .switch-side--left, .main .switch .switch-side--right {
           width: 7rem;
           height: 4rem;
           border-radius: 4rem;
         }
-        .main #switch .btn-switch {
+        .main .switch .btn-switch {
           width: 3rem;
           height: 3rem;
           border-radius: 3vw;
         }
-        .main #switch i {
+        .main .switch i {
           font-size: 2rem;
           top: 25%;
         }
-        .main #switch i.bxs-sun {
+        .main .switch i.bxs-sun {
           left: 15.5%;
         }
-        .main #switch i.bxs-moon {
+        .main .switch i.bxs-moon {
           right: 15.5%;
         }
       }
@@ -2053,86 +2066,88 @@ body {
 
         /* TUDO APENAS MOBILE */
 
-        .main2 {
-          width: 20vw;
+        @media(max-width:999px) {
+          
+        .main {
+          width: 23vw;
           height: 10vw;
           display: flex;
           flex-direction: column;
           justify-content: center;
           margin-top: 4vh;
         }
-        .main2--light {
+        .main--light {
         }
-        .main2--light #switch2 {
+        .main--light .switch {
           background-color: #D4F8D7;
           animation: clickOn 0.5s;
         }
-        .main2--light #switch2 .btn-switch {
+        .main--light .switch .btn-switch {
           right: auto;
           left: 9%;
           animation: animationClickOn 0.7s;
         }
-        .main2--light #switch2 .bxs-moon {
+        .main--light .switch .bxs-moon {
           animation: rotateOn 0.7s;
         }
-        .main2--light #switch2 .bxs-sun {
+        .main--light .switch .bxs-sun {
           animation: shakeOn 0.7s;
         }
-        .main2--dark {
+        .main--dark {
         }
-        .main2--dark #switch2 {
+        .main--dark .switch {
           background-color: #0B352E;
           animation: clickOff 0.5s;
         }
-        .main2--dark #switch2 .btn-switch {
+        .main--dark .switch .btn-switch {
           left: auto;
           right: 9%;
           animation: animationClickOff 0.7s;
         }
-        .main2--dark #switch2 .bxs-moon {
+        .main--dark .switch .bxs-moon {
           animation: rotateOff 0.7s;
         }
-        .main2--dark #switch2 .bxs-sun {
+        .main--dark .switch .bxs-sun {
           animation: shakeOff 0.7s;
         }
-        .main2 .text {
+        .main .text {
           font-size: 10vw;
           line-height: 8vw;
           position: relative;
         }
-        .main2 .text--light {
+        .main .text--light {
           left: -7vw;
           color: rgba(79, 84, 94, 0.4);
         }
-        .main2 .text--dark {
+        .main .text--dark {
           left: 5rem;
           color: rgba(204, 215, 234, 0.8);
         }
         @media only screen and (max-width: 1130px) {
-          .main2 .text {
+          .main .text {
             font-size: 7rem;
             line-height: 5.5rem;
           }
-          .main2 .text--light {
+          .main .text--light {
             left: -5rem;
           }
-          .main2 .text--dark {
+          .main .text--dark {
             left: 4rem;
           }
         }
         @media only screen and (min-width: 1800px) {
-          .main2 .text {
+          .main .text {
             font-size: 11rem;
             line-height: 9rem;
           }
-          .main2 .text--light {
+          .main .text--light {
             left: -8rem;
           }
-          .main2 .text--dark {
+          .main .text--dark {
             left: 5.5rem;
           }
         }
-        .main2 #switch2 {
+        .main .switch {
           border: none;
           width: 5vw;
           height: 3vw;
@@ -2140,7 +2155,7 @@ body {
           position: absolute;
           cursor: pointer;
         }
-        .main2 #switch2 .btn-switch {
+        .main .switch .btn-switch {
           display: block;
           background-color: #fff;
           width: 2.6vw;
@@ -2150,65 +2165,65 @@ body {
           z-index: 0;
           top: 13%;
         }
-        .main2 #switch2 i {
+        .main .switch i {
           font-size: 4vw;
           position: absolute;
           z-index: 1;
           top: 26%;
           color: #3FC46D;
         }
-        .main2 #switch2 i.bxs-sun {
+        .main .switch i.bxs-sun {
           left: 15%;
         }
-        .main2 #switch2 i.bxs-moon {
+        .main .switch i.bxs-moon {
           right: 15%;
         }
         @media only screen and (max-width: 1130px) {
-          .main2 #switch2 {
+          .main .switch {
             width: 5.5rem;
             height: 3rem;
             border-radius: 5rem;
           }
-          .main2 #switch2 .btn-switch {
+          .main .switch .btn-switch {
             width: 2.3rem;
             height: 2.3rem;
             border-radius: 3rem;
           }
-          .main2 #switch2 i {
+          .main .switch i {
             font-size: 1.5rem;
             top: 28%;
           }
-          .main2 #switch2 i.bxs-sun {
+          .main .switch i.bxs-sun {
             left: 16%;
           }
-          .main2 #switch2 i.bxs-moon {
+          .main .switch i.bxs-moon {
             right: 16%;
           }
         }
         @media only screen and (min-width: 1620px) {
-          .main2 #switch2 {
+          .main .switch {
             width: 5.5rem;
             height: 3rem;
             border-radius: 5rem;
           }
-          .main2 #switch2 .switch-side--left, .main2 #switch2 .switch-side--right {
+          .main .switch .switch-side--left, .main .switch .switch-side--right {
             width: 5.5rem;
             height: 3rem;
             border-radius: 4rem;
           }
-          .main2 #switch2 .btn-switch {
+          .main .switch .btn-switch {
             width: 3rem;
             height: 3rem;
             border-radius: 3vw;
           }
-          .main2 #switch2 i {
+          .main .switch i {
             font-size: 2rem;
             top: 25%;
           }
-          .main2 #switch2 i.bxs-sun {
+          .main .switch i.bxs-sun {
             left: 15.5%;
           }
-          .main2 #switch2 i.bxs-moon {
+          .main .switch i.bxs-moon {
             right: 15.5%;
           }
         }
@@ -2373,6 +2388,7 @@ body {
             }
           }
         }
+      }
 
 
         .header {
@@ -2809,7 +2825,7 @@ padding-right: 25px;
         background-size: contain; 
         background-position: center; 
         width: 110vw; 
-        height: 130vh; 
+        height: 68vh; 
         position: absolute; 
         top: 90%; 
         left: 48%; 
@@ -2870,7 +2886,7 @@ z-index: 15;
       }
       #conhecer_mobile{
         position: absolute;
-        top: 100vh;
+        top: 120vh;
       }
 
 
