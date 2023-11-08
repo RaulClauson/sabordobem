@@ -1560,7 +1560,7 @@ gsap.to(".fundo_frase_impacto_mobile", {
     scrollTrigger:{
         trigger: ".fundo_frase_impacto_mobile",
         start: "0% top",
-        end: "90% top",
+        end: "100% top",
         scrub: 1,
         pin:true,
     },
