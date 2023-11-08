@@ -8,8 +8,8 @@ textElements.forEach(text => {
     ease: 'none',
     scrollTrigger: {
       trigger: text,
-      start: 'center 80%',
-      end: 'center 20%',
+      start: '400% 80%',
+      end: '700% top',
       scrub: true,
     },
   });
