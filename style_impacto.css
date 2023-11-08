@@ -394,8 +394,13 @@ padding: 0;
   }
 
   .logo_nav{
+    width: 69px;
     height: 55%;
     margin-left: 3%;
+    background: url(img/logo_impacto.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
   }
 
 
@@ -451,7 +456,6 @@ padding: 0;
   }
   .btn > * > *:last-child {
     position: absolute;
-    color: #fff;
   }
 
   .button {
@@ -2716,4 +2720,18 @@ justify-content: center;
 
   .nav_d{
     background-color: #0B352E;
+  }
+  .txt_cor_light_menu_d{
+    color: #CBF6C0;
+  }
+
+  .logo_nav_d{
+    background: url(img/logo_nav_d.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .txt_cor_dark{
+    color: #CBF6C0;
   }

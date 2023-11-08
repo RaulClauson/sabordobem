@@ -2473,6 +2473,20 @@ padding-right: 25px;
   align-items: center;
   justify-content: center;
 }
+.fundo_d{
+  width: 100%;
+  height: 100vh;
+  background: url(img/fundo_sobre_nos_dark.png);
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: -1;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .titulo_inicio_mobile{
   color: #19674B;
 text-align: center;
@@ -2775,6 +2789,7 @@ z-index: 3;
 height: 13px;
 border-radius: 64px;
 overflow-x: hidden;
+background-color: #0B352E;
 }
 
 .barra{
@@ -3471,4 +3486,103 @@ justify-content: center;
 .svg_d2{
   stroke: #CBF6C0;
   fill: #CBF6C0;
+}
+.svg_d3{
+  fill: #CBF6C0;
+}
+
+.fundo_claro_d{
+  background-color: #0B352E;
+}
+
+
+
+.pessoa_mobile_d{
+  width: 100%;
+  height: 100%;
+  background: url(img/foto_leo_d.png);
+  background-size: contain;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+.pessoa_mobile2_d{
+  width: 100%;
+  height: 100%;
+  background: url(img/foto_lorenzo_d.png);
+  background-size: contain;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+.pessoa_mobile3_d{
+  width: 100%;
+  height: 100%;
+  background: url(img/foto_lucas_d.png);
+  background-size: contain;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+.pessoa_mobile4_d{
+  width: 100%;
+  height: 100%;
+  background: url(img/foto_mari_d.png);
+  background-size: contain;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+.pessoa_mobile5_d{
+  width: 100%;
+  height: 100%;
+  background: url(img/foto_raul_d.png);
+  background-size: contain;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+.indica_d{
+  width: 90%;
+  height: 65px;
+  border-radius: 15px;
+  background: #19674B;
+  z-index: 10;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.como_comecou_mobile_d{
+  height: 250vh;
+  width: 100%;
+  background: #19674B;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  position: relative;
+
+  margin-bottom: 150px;
+}
+
+.entre_mobile_d{
+  background-color: #19674B;
+  width: 90%;
+  height: 172px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 17px;
+}
+
+.fim_entre_mobile_d{
+  width: 90%;
+  height: 172px;
+
+  background: url(img/entre5_mobile_d.png);
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  border-radius: 25px;
 }
