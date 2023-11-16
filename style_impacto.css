@@ -235,6 +235,8 @@ to {    opacity: 1;}
   height: 200vh;
   margin: 0;
   padding: 0;
+  position: relative;
+  z-index: 10;
 }
 
 
@@ -554,9 +556,31 @@ padding: 0;
 
 
 
-
+.slide_up7{
+  width: 85%;
+  overflow: hidden;
+  height: 96px;
+  max-height: 96px;
+  margin: 0;
+  margin-top: -40vh;
+  position: absolute;
+left: 50%;
+transform: translate(-50%);
+}
+.slide_up8{
+  width: 85%;
+  overflow: hidden;
+  height: 96px;
+  max-height: 96px;
+  margin: 0;
+  margin-top: -30vh;
+  position: absolute;
+left: 50%;
+transform: translate(-50%);
+}
 
   .titulo_inicio{
+    width: 100%;
     color: #fff;
 text-align: left;
 font-family: 'Pilcrow Rounded', sans-serif;
@@ -567,13 +591,23 @@ font-size: 96px;
 line-height: 88.5%;
 letter-spacing: -3.36px;
 
-position: absolute;
-left: 50%;
-transform: translate(-50%);
+margin: 0;
+margin-top: 96px;
+  }
+  .titulo_inicio2{
+    width: 100%;
+    color: #fff;
+text-align: left;
+font-family: 'Pilcrow Rounded', sans-serif;
+font-style: normal;
+font-weight: 900;
 
-width: 85%;
+font-size: 96px;
+line-height: 88.5%;
+letter-spacing: -3.36px;
 
-margin-top: -40vh;
+margin: 0;
+margin-top: 96px;
   }
   .sobre_seta{
     position: absolute;
@@ -635,6 +669,16 @@ font-size: 22px;
     margin-top: 5%;
     margin-left: 5%;
   }
+
+  .slide_up5{
+    width: auto;
+    overflow: hidden;
+    height: 25px;
+    max-height: 25px;
+    margin-bottom: 2vh;
+    margin-top: 1vh;
+  }
+
   .sub_titulo_missao{
     color: #F3FCF4;
 font-size: 20px;
@@ -643,6 +687,14 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 letter-spacing: -0.7px;
+margin: 0;
+margin-top: 25px;
+  }
+  .slide_up6{
+    width: auto;
+    overflow: hidden;
+    height: 130px;
+    max-height: 130px;
   }
   .titulo_missao{
     color: #F3FCF4;
@@ -654,13 +706,26 @@ line-height: 88%;
 letter-spacing: -5.25px;
 
 margin: 0;
+margin-top: 150px;
+  }
+  .titulo_missao2{
+    color: #F3FCF4;
+font-size: 150px;
+font-family: 'Pilcrow Rounded', sans-serif;
+font-style: normal;
+font-weight: 900;
+line-height: 88%;
+letter-spacing: -5.25px;
+
+margin: 0;
+margin-top: 150px;
   }
 
 
 
   .missao_direita{
     width: 45%;
-    height: 95vh;
+    height: 90vh;
     margin-top: 5%;
     margin-right: 5%;
 
@@ -673,8 +738,9 @@ font-size: 36px;
 font-family: 'Hind', sans-serif;
 font-style: normal;
 font-weight: 700;
-line-height: 99%;
+line-height: -500vh;
 letter-spacing: -1.26px;
+opacity: 0;
   }
 
 
@@ -720,6 +786,8 @@ letter-spacing: -1.26px;
     display: flex;
     align-items: center;
     flex-direction: column;
+    position: relative;
+    z-index: 5;
   }
 
   .realidades_sticky{
@@ -843,7 +911,7 @@ letter-spacing: -1.26px;
   .noticias_verde{
     background-color: #3FC46D;
     border-radius: 50px 50px 0px 0px;
-    width: 90%;
+    width: 55%;
     height: 100%;
     display: flex;
     align-items: center;
@@ -856,6 +924,28 @@ letter-spacing: -1.26px;
     
   }
 
+  .slide_up2{
+    width: auto;
+    overflow: hidden;
+    height: 150px;
+    max-height: 150px;
+    margin-top: 10vh;
+  }
+  .slide_up3{
+    width: auto;
+    overflow: hidden;
+    height: 150px;
+    max-height: 150px;
+    margin: 0;
+  }
+  .slide_up4{
+    width: auto;
+    overflow: hidden;
+    height: 150px;
+    max-height: 150px;
+    margin-bottom: 10vh;
+  }
+
   .noticias_inicio_titulo{
     color: #FFF;
     font-size: 150px;
@@ -864,7 +954,30 @@ letter-spacing: -1.26px;
     font-weight: 900;
     line-height: 88%;
     letter-spacing: -5.25px;
-    
+    margin: 0;
+    margin-top: 150px;
+  }
+  .noticias_inicio_titulo3{
+    color: #FFF;
+    font-size: 150px;
+    font-family: 'Pilcrow Rounded', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88%;
+    letter-spacing: -5.25px; 
+    margin: 0;
+    margin-top: 150px;
+  }
+  .noticias_inicio_titulo4{
+    color: #FFF;
+    font-size: 150px;
+    font-family: 'Pilcrow Rounded', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88%;
+    letter-spacing: -5.25px; 
+    margin: 0;
+    margin-top: 150px;
   }
 
   .noticias_inicio_texto{
@@ -873,8 +986,9 @@ letter-spacing: -1.26px;
     font-family: 'Hind', sans-serif;
     font-style: normal;
     font-weight: 700;
-    line-height: 99%;
+    line-height: 500vh;
     letter-spacing: -1.26px;
+    opacity: 0;
 
     width: 60%;
 
@@ -911,8 +1025,27 @@ letter-spacing: -1.26px;
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
+
+    opacity: 0;
+    margin-left: 3%;
   }
   .impacto2{
+    width: 30%;
+    height: 80%;
+    border-radius: 60px;
+    background: #F3FCF4;
+
+    margin-right: 1%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+    opacity: 0;
+    margin-left: 6%;
+  }
+  .impacto3{
     width: 30%;
     height: 80%;
     border-radius: 60px;
@@ -924,6 +1057,8 @@ letter-spacing: -1.26px;
     align-items: center;
     flex-direction: column;
 
+    opacity: 0;
+    margin-left: 9%;
   }
 
   .cima_impacto{
@@ -1283,6 +1418,7 @@ line-height: 93.5%;
     padding-right: 10%;
     padding-top: 5%;
     padding-bottom: 5%;
+    border-top: 2px solid rgba(255, 255, 255, 0.10);
   }
   .logo_rodape{
     width: 122px;
@@ -1631,6 +1767,24 @@ line-height: 93.5%;
 
 
 
+
+
+
+  .path {
+    stroke-dasharray: 3000;
+    stroke-dashoffset: 3000;
+  }
+  
+  .path2 {
+    stroke-dasharray: 2200;
+    stroke-dashoffset: 2200;
+  }
+  
+  .path3 {
+    stroke-dasharray: 3000;
+    stroke-dashoffset: 3000;
+  }
+  
 
 
 
@@ -2797,8 +2951,8 @@ justify-content: center;
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: #4246ce;
-    color: #0D0D0D;
+    background-color: #fff;
+    color: #19DE6E;
     
     clip-path: polygon(0 50%, 100% 50%, 100% 50%, 0 50%);
     transform-origin: center;
@@ -2909,3 +3063,20 @@ justify-content: center;
     text-decoration: none;
     color: inherit;
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  

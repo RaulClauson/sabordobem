@@ -29,6 +29,8 @@ gsap.to(".posi_continue", {
     duration: 0.3
 });
 
+
+
 gsap.to(".antes_continue2", {
     scrollTrigger:{
         trigger: ".antes_continue2",
@@ -252,8 +254,8 @@ gsap.to(".titulo_lutamos", {
 gsap.to(".sub_titulo_lutamos", {
     scrollTrigger:{
         trigger: ".sub_titulo_lutamos",
-        start: "300% top",
-        end: "300% 0",
+        start: "1150% top",
+        end: "1150% 0",
         scrub: 1,
     },
     marginTop:"2%",
@@ -439,7 +441,7 @@ gsap.to(".quem_doar_alinhar", {
         end: "165% top",
         toggleActions: "restart reverse restart reverse",
     },
-    color: "#fff",
+    opacity:1,
     duration: 0.2
 });
 gsap.to(".quem_doar_alinhar3", {
@@ -449,7 +451,7 @@ gsap.to(".quem_doar_alinhar3", {
         end: "285% top",
         toggleActions: "restart reverse restart reverse",
     },
-    color: "#fff",
+    opacity:1,
     duration: 0.2
 });
 
@@ -460,9 +462,7 @@ gsap.to(".porque_baixar", {
         end: "850% top",
         toggleActions: "restart reverse restart reverse",
     },
-    color: "#31D176",
-    borderColor:"#fff",
-    backgroundColor: "#fff",
+    opacity:1,
     duration: 0.2
 });
 gsap.to(".porque_baixar2", {
@@ -472,9 +472,7 @@ gsap.to(".porque_baixar2", {
         end: "1930% top",
         toggleActions: "restart reverse restart reverse",
     },
-    color: "#31D176",
-    borderColor:"#fff",
-    backgroundColor: "#fff",
+    opacity:1,
     duration: 0.2
 });
 
@@ -485,9 +483,7 @@ gsap.to(".porque_baixar_dark", {
         end: "850% top",
         toggleActions: "restart reverse restart reverse",
     },
-    color: "#19674B",
-    borderColor:"#CBF6C0",
-    backgroundColor: "#CBF6C0",
+    opacity:1,
     duration: 0.2
 });
 gsap.to(".porque_baixar2_dark", {
@@ -497,9 +493,7 @@ gsap.to(".porque_baixar2_dark", {
         end: "1930% top",
         toggleActions: "restart reverse restart reverse",
     },
-    color: "#19674B",
-    borderColor:"#CBF6C0",
-    backgroundColor: "#CBF6C0",
+    opacity:1,
     duration: 0.2
 });
 
@@ -542,29 +536,15 @@ gsap.to(".svg_quem", {
     ease:"none",
     duration: 0.2
 });
-
-gsap.to(".o_que_e_titulo", {
-    scrollTrigger:{
-        trigger: ".o_que_e_titulo",
-        start: "top 90%",
-        end: "top 90%",
-        scrub: 1,
-    },
-    opacity:1,
-    ease:"none",
-    opacity:1,
-    smooth: true,
-    duration: 0.3
-});
-
 gsap.to(".o_que_e_texto", {
     scrollTrigger:{
-        trigger: ".o_que_e_texto",
-        start: "top 90%",
-        end: "top 90%",
+        trigger: ".o_que_e_titulo",
+        start: "top 100%",
+        end: "top 100%",
         scrub: 1,
     },
     opacity:1,
+    marginTop:0,
     ease:"none",
     opacity:1,
     smooth: true,
@@ -573,9 +553,9 @@ gsap.to(".o_que_e_texto", {
 
 gsap.to(".o_que_e_logo", {
     scrollTrigger:{
-        trigger: ".o_que_e_logo",
-        start: "50% 90%",
-        end: "50% 90%",
+        trigger: ".o_que_e_titulo",
+        start: "top 100%",
+        end: "top 100%",
         scrub: 1,
     },
     opacity:1,
@@ -585,6 +565,196 @@ gsap.to(".o_que_e_logo", {
     duration: 0.3
 });
 
+gsap.to(".o_que_e_titulo", {
+    scrollTrigger:{
+        trigger: ".o_que_e_titulo",
+        start: "top 100%",
+        end: "top 100%",
+        toggleActions: "restart none none reverse",
+    },
+    marginTop: "0px",
+    ease: "power4.out",
+    smooth: true,
+    duration: 1
+});
+
+gsap.to(".o_que_e_titulo2", {
+    scrollTrigger:{
+        trigger: ".o_que_e_titulo",
+        start: "top 100%",
+        end: "top 100%",
+        toggleActions: "restart none none reverse",
+    },
+    marginTop: "0px",
+    ease: "power4.out",
+    smooth: true,
+    delay: 0.2,
+    duration: 1
+});
+
+gsap.to(".o_que_e_titulo2", {
+    scrollTrigger:{
+        trigger: ".o_que_e_titulo",
+        start: "top 100%",
+        end: "top 100%",
+        toggleActions: "restart none none reverse",
+    },
+    marginTop: "0px",
+    ease: "power4.out",
+    smooth: true,
+    delay: 0.2,
+    duration: 1
+});
+
+gsap.to(".porque_textos_titulo", {
+    scrollTrigger:{
+        trigger: ".porque_textos_alinhar",
+        start: "-48% top",
+        end: "30% top",
+        toggleActions: "restart reverse restart reverse",
+    },
+    marginTop: "0px",
+    ease: "power4.out",
+    smooth: true,
+    duration: 1
+});
+gsap.to(".porque_textos_titulo2", {
+    scrollTrigger:{
+        trigger: ".quem_textos_alinhar",
+        start: "30% top",
+        end: "30% 0",
+        toggleActions: "restart none none reverse",
+    },
+    marginTop: "0px",
+    ease: "power4.out",
+    smooth: true,
+    duration: 1
+});
+gsap.to(".porque_textos_titulo3", {
+    scrollTrigger:{
+        trigger: ".quem_textos_alinhar",
+        start: "30% top",
+        end: "30% 0",
+        toggleActions: "restart none none reverse",
+    },
+    marginTop: "0px",
+    ease: "power4.out",
+    smooth: true,
+    delay: 0.2,
+    duration: 1
+});
+gsap.to(".porque_textos_titulo4", {
+    scrollTrigger:{
+        trigger: ".quem_textos_alinhar",
+        start: "30% top",
+        end: "30% 0",
+        toggleActions: "restart none none reverse",
+    },
+    marginTop: "0px",
+    ease: "power4.out",
+    smooth: true,
+    delay: 0.4,
+    duration: 1
+});
+
+
+gsap.to(".baixe_titulo", {
+    scrollTrigger:{
+        trigger: ".baixe_titulo",
+        start: "top 80%",
+        end: "top 80%",
+        toggleActions: "restart none none reverse",
+    },
+    marginTop: "0px",
+    ease: "power4.out",
+    smooth: true,
+    duration: 1
+});
+gsap.to(".baixe_titulo2", {
+    scrollTrigger:{
+        trigger: ".baixe_titulo",
+        start: "top 80%",
+        end: "top 80%",
+        toggleActions: "restart none none reverse",
+    },
+    marginTop: "0px",
+    ease: "power4.out",
+    smooth: true,
+    delay:0.2,
+    duration: 1
+});
+
+
+gsap.to(".porque_caixa", {
+    scrollTrigger:{
+        trigger: ".porque_caixa",
+        start: "top 60%",
+        end: "top 60%",
+        toggleActions: "restart none none reverse",
+    },
+    opacity:1,
+    marginBottom: 0,
+    ease: "power4.out",
+    smooth: true,
+    duration: 1
+});
+gsap.to(".porque_caixa2", {
+    scrollTrigger:{
+        trigger: ".porque_caixa",
+        start: "top 60%",
+        end: "top 60%",
+        toggleActions: "restart none none reverse",
+    },
+    opacity:1,
+    marginBottom: 0,
+    ease: "power4.out",
+    smooth: true,
+    delay:0.2,
+    duration: 1
+});
+gsap.to(".porque_caixa3", {
+    scrollTrigger:{
+        trigger: ".porque_caixa",
+        start: "top 60%",
+        end: "top 60%",
+        toggleActions: "restart none none reverse",
+    },
+    opacity:1,
+    marginBottom: 0,
+    ease: "power4.out",
+    smooth: true,
+    delay:0.4,
+    duration: 1
+});
+
+
+
+
+
+gsap.to(".fundo_baixe1", {
+    scrollTrigger:{
+        trigger: ".fundo_baixe1",
+        start: "100% 100%",
+        end: "100% 100%",
+        toggleActions: "restart none none reverse",
+    },
+    height: 0,
+    ease: "power4.inOut",
+    smooth: true,
+    duration: 1.5
+});
+gsap.to(".fundo_baixe2", {
+    scrollTrigger:{
+        trigger: ".fundo_baixe2",
+        start: "150% 100%",
+        end: "150% 100%",
+        toggleActions: "restart none none reverse",
+    },
+    height: 0,
+    ease: "power4.inOut",
+    smooth: true,
+    duration: 1.5
+});
 
 
 
@@ -720,6 +890,88 @@ gsap.to(".missao", {
     duration: 0.3
 });
 
+gsap.to(".integrante_conheca", {
+    scrollTrigger:{
+        trigger: ".integrante_conheca",
+        start: "top 60%",
+        end: "top 0",
+        toggleActions: "restart none none reverse",
+    },
+    opacity: "1",
+    marginTop: "0px",
+    ease: "power4.out",
+    smooth: true,
+    duration: 1
+});
+gsap.to(".integrante_conheca2", {
+    scrollTrigger:{
+        trigger: ".integrante_conheca2",
+        start: "top 60%",
+        end: "top 0",
+        toggleActions: "restart none none reverse",
+    },
+    opacity: "1",
+    marginTop: "0px",
+    ease: "power4.out",
+    smooth: true,
+    delay:0.2,
+    duration: 1
+});
+gsap.to(".integrante_conheca3", {
+    scrollTrigger:{
+        trigger: ".integrante_conheca3",
+        start: "top 60%",
+        end: "top 0",
+        toggleActions: "restart none none reverse",
+    },
+    opacity: "1",
+    marginTop: "0px",
+    ease: "power4.out",
+    smooth: true,
+    delay:0.4,
+    duration: 1
+});
+gsap.to(".integrante_conheca4", {
+    scrollTrigger:{
+        trigger: ".integrante_conheca4",
+        start: "top 60%",
+        end: "top 0",
+        toggleActions: "restart none none reverse",
+    },
+    opacity: "1",
+    marginTop: "0px",
+    ease: "power4.out",
+    smooth: true,
+    delay:0.6,
+    duration: 1
+});
+gsap.to(".integrante_conheca5", {
+    scrollTrigger:{
+        trigger: ".integrante_conheca5",
+        start: "top 60%",
+        end: "top 0",
+        toggleActions: "restart none none reverse",
+    },
+    opacity: "1",
+    marginTop: "0px",
+    ease: "power4.out",
+    smooth: true,
+    delay:0.8,
+    duration: 1
+});
+
+gsap.to(".titulo_conheca", {
+    scrollTrigger:{
+        trigger: ".titulo_conheca",
+        start: "top 60%",
+        end: "top 60%",
+        toggleActions: "restart none none reverse",
+    },
+    marginTop: "0px",
+    ease: "power4.out",
+    smooth: true,
+    duration: 0.5
+});
 
 
 
@@ -732,6 +984,294 @@ gsap.to(".missao", {
 
 
 //------------- IMPACTO -------------//
+
+gsap.to(".path", {
+    scrollTrigger:{
+        trigger: ".path",
+        start: "top 60%",
+        end: "100% 0",
+        scrub: 2,
+    },
+    strokeDashoffset: "0",
+    ease:"none",
+    opacity:1,
+    smooth: true,
+    duration: 0.3
+});
+gsap.to(".path2", {
+    scrollTrigger:{
+        trigger: ".path",
+        start: "top 60%",
+        end: "100% 0",
+        scrub: 2,
+    },
+    strokeDashoffset: "0",
+    ease:"none",
+    opacity:1,
+    smooth: true,
+    duration: 0.3
+});
+gsap.to(".path3", {
+    scrollTrigger:{
+        trigger: ".path3",
+        start: "top 50%",
+        end: "1100% 0",
+        scrub: 2,
+    },
+    strokeDashoffset: "0",
+    ease:"none",
+    opacity:1,
+    smooth: true,
+    duration: 0.3
+});
+gsap.to(".path4", {
+    scrollTrigger:{
+        trigger: ".path4",
+        start: "top 80%",
+        end: "400% 0",
+        scrub: 2,
+    },
+    strokeDashoffset: "0",
+    ease:"none",
+    opacity:1,
+    smooth: true,
+    duration: 0.3
+});
+
+gsap.to(".path5", {
+    scrollTrigger:{
+        trigger: ".path5",
+        start: "-1000% 80%",
+        end: "-100% 0",
+        scrub: 2,
+    },
+    strokeDashoffset: "0",
+    ease:"none",
+    opacity:1,
+    smooth: true,
+    duration: 1
+});
+
+gsap.to(".noticias_inicio_titulo", {
+    scrollTrigger:{
+        trigger: ".noticias_inicio_titulo",
+        start: "top 60%",
+        end: "top 60%",
+        toggleActions: "restart none none reverse",
+    },
+    marginTop: "0px",
+    ease: "power4.out",
+    smooth: true,
+    duration: 1
+});
+gsap.to(".noticias_inicio_titulo3", {
+    scrollTrigger:{
+        trigger: ".noticias_inicio_titulo",
+        start: "top 60%",
+        end: "top 60%",
+        toggleActions: "restart none none reverse",
+    },
+    marginTop: "0px",
+    ease: "power4.out",
+    smooth: true,
+    delay:0.1,
+    duration: 1
+});
+gsap.to(".noticias_inicio_titulo4", {
+    scrollTrigger:{
+        trigger: ".noticias_inicio_titulo",
+        start: "top 60%",
+        end: "top 60%",
+        toggleActions: "restart none none reverse",
+    },
+    marginTop: "0px",
+    ease: "power4.out",
+    smooth: true,
+    delay:0.2,
+    duration: 1
+});
+
+gsap.to(".sub_titulo_missao", {
+    scrollTrigger:{
+        trigger: ".sub_titulo_missao",
+        start: "top 60%",
+        end: "top 60%",
+        toggleActions: "restart none none reverse",
+    },
+    marginTop: "0px",
+    ease: "power4.out",
+    smooth: true,
+    duration: 1
+});
+
+gsap.to(".titulo_missao", {
+    scrollTrigger:{
+        trigger: ".sub_titulo_missao",
+        start: "top 60%",
+        end: "top 60%",
+        toggleActions: "restart none none reverse",
+    },
+    marginTop: "0px",
+    ease: "power4.out",
+    smooth: true,
+    delay:0.1,
+    duration: 1
+});
+
+gsap.to(".titulo_missao2", {
+    scrollTrigger:{
+        trigger: ".sub_titulo_missao",
+        start: "top 60%",
+        end: "top 60%",
+        toggleActions: "restart none none reverse",
+    },
+    marginTop: "0px",
+    ease: "power4.out",
+    smooth: true,
+    delay:0.2,
+    duration: 1
+});
+
+gsap.to(".titulo_inicio", {
+    scrollTrigger:{
+        trigger: ".titulo_inicio",
+        start: "top 80%",
+        end: "top 80%",
+        toggleActions: "restart none none reverse",
+    },
+    marginTop: "0px",
+    ease: "power4.out",
+    smooth: true,
+    duration: 1
+});
+
+gsap.to(".titulo_inicio2", {
+    scrollTrigger:{
+        trigger: ".titulo_inicio",
+        start: "top 80%",
+        end: "top 80%",
+        toggleActions: "restart none none reverse",
+    },
+    marginTop: "0px",
+    ease: "power4.out",
+    smooth: true,
+    delay:0.2,
+    duration: 1
+});
+
+
+gsap.to(".noticias_inicio_texto", {
+    scrollTrigger:{
+        trigger: ".noticias_inicio_texto",
+        start: "top 80%",
+        end: "top 80%",
+        toggleActions: "restart none none reverse",
+    },
+    opacity:1,
+    lineHeight: "99%",
+    ease: "power4.out",
+    smooth: true,
+    duration: 1
+});
+
+gsap.to(".texto_missao", {
+    scrollTrigger:{
+        trigger: ".texto_missao",
+        start: "30% 80%",
+        end: "30% 80%",
+        toggleActions: "restart none none reverse",
+    },
+    opacity:1,
+    lineHeight: "99%",
+    ease: "power4.out",
+    smooth: true,
+    duration: 1
+});
+
+gsap.to(".porque_textos_texto", {
+    scrollTrigger:{
+        trigger: ".porque_textos_texto",
+        start: "-30% 100%",
+        end: "-30% 100%",
+        toggleActions: "restart none none reverse",
+    },
+    opacity:1,
+    lineHeight: "99%",
+    ease: "power4.out",
+    smooth: true,
+    duration: 1
+});
+gsap.to(".porque_textos_texto2", {
+    scrollTrigger:{
+        trigger: ".quem_textos_alinhar",
+        start: "30% top",
+        end: "30% 0",
+        toggleActions: "restart none none reverse",
+    },
+    opacity:1,
+    lineHeight: "99%",
+    ease: "power4.out",
+    smooth: true,
+    duration: 1
+});
+
+gsap.to(".baixe_texto", {
+    scrollTrigger:{
+        trigger: ".baixe_titulo",
+        start: "top 80%",
+        end: "top 80%",
+        toggleActions: "restart none none reverse",
+    },
+    opacity:1,
+    lineHeight: "99%",
+    ease: "power4.out",
+    smooth: true,
+    duration: 1
+});
+
+gsap.to(".impacto", {
+    scrollTrigger:{
+        trigger: ".impacto",
+        start: "top 60%",
+        end: "top 60%",
+        toggleActions: "restart none none reverse",
+    },
+    opacity:1,
+    marginLeft: "0",
+    ease: "power4.out",
+    smooth: true,
+    duration: 1
+});
+
+gsap.to(".impacto2", {
+    scrollTrigger:{
+        trigger: ".impacto",
+        start: "top 60%",
+        end: "top 60%",
+        toggleActions: "restart none none reverse",
+    },
+    opacity:1,
+    marginLeft: "0",
+    ease: "power4.out",
+    smooth: true,
+    duration: 1
+});
+
+gsap.to(".impacto3", {
+    scrollTrigger:{
+        trigger: ".impacto",
+        start: "top 60%",
+        end: "top 60%",
+        toggleActions: "restart none none reverse",
+    },
+    opacity:1,
+    marginLeft: "0",
+    ease: "power4.out",
+    smooth: true,
+    duration: 1
+});
+
+
 
 gsap.to(".textos", {
     scrollTrigger:{

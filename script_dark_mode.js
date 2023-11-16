@@ -17,7 +17,7 @@ var content17 = document.getElementsByClassName('divide_oque')[0];
 var content18 = document.querySelectorAll('.fundo_oq');
 var content19 = document.querySelectorAll('.light_text2');
 var content20 = document.querySelectorAll('.logo_oq');
-var content21 = document.querySelectorAll('.porque_caixa');
+var content21 = document.querySelectorAll('.porque_caixa_darkk');
 var content22 = document.querySelectorAll('.svg_caixas');
 var content23 = document.getElementsByClassName('porque_textos_dentro')[0];
 var content24 = document.querySelectorAll('.play');
@@ -42,6 +42,7 @@ var content42 = document.getElementsByClassName('saiba_mais_inicio_mobile')[0];
 var content43 = document.querySelectorAll('.buttom_doar_mobile');
 var content44 = document.getElementsByClassName('baixe_app_mobile')[0];
 var content45 = document.getElementsByClassName('button_antes_rodape_mobile')[0];
+var content46 = document.querySelectorAll('.o_que_gif');
 
 const mainContent = document.querySelectorAll(".main");
 const switchBTN = document.querySelectorAll(".switch");
@@ -174,6 +175,10 @@ element.classList.toggle('fundo_junto2_dark');
 content43.forEach(function(element) {
 element.classList.toggle('buttom_doar_mobile_dark');
 });
+
+content46.forEach(function(element) {
+  element.classList.toggle('o_que_gif_d');
+  });
 }
 
 switchBTN.forEach((button) => {

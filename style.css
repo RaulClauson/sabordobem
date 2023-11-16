@@ -783,6 +783,7 @@ body {
         transform: translate(-50%, -50%);
         z-index: 1;
         opacity: 0;
+        margin-top: -2%;
       }
 
 
@@ -993,13 +994,59 @@ body {
         justify-content: center;
         flex-direction: column;
       }
+
+      .slide_up9{
+        width: auto;
+        overflow: hidden;
+        height: 90px;
+        max-height: 90px;
+      }
+      .slide_up10{
+        width: auto;
+        overflow: hidden;
+        height: 90px;
+        max-height: 90px;
+        margin-bottom: 35px;
+      }
+      .slide_up11{
+        width: auto;
+        overflow: hidden;
+        height: 96px;
+        max-height: 96px;
+        margin-bottom: 35px;
+        margin-top: 85px;
+      }
+      .slide_up12{
+        width: auto;
+        overflow: hidden;
+        height: 96px;
+        max-height: 96px;
+        margin-top: 85px;
+      }
+      .slide_up13{
+        width: auto;
+        overflow: hidden;
+        height: 96px;
+        max-height: 96px;
+      }
+      .centra_baixe{
+        margin-left: 15%;
+        margin-top: 10%;
+      }
       .o_que_e_titulo{
-        opacity: 0;
         font-family: 'Pilcrow Rounded', sans-serif;
         font-size: 80px;
         line-height: 89.76px;
         margin: 0;
-        margin-bottom: 48px;
+        margin-top: 90px;
+        color: #3FC46D;
+      }
+      .o_que_e_titulo2{
+        font-family: 'Pilcrow Rounded', sans-serif;
+        font-size: 80px;
+        line-height: 89.76px;
+        margin: 0;
+        margin-top: 90px;
         color: #3FC46D;
       }
       .o_que_e_texto{
@@ -1009,9 +1056,15 @@ body {
         font-weight: bold;
         line-height: 25px;
         margin: 0;
+        margin-top: 5vh;
         color: #19674B;
       }
 
+      .path5 {
+        stroke-dasharray: 300;
+        stroke-dashoffset: 300;
+      }
+      
       .o_que_e_logo{
         opacity: 0;
         width: 60%;
@@ -1020,6 +1073,22 @@ body {
         align-items: center;
         justify-content: center;
         padding-bottom: 35px;
+      }
+
+      .o_que_gif{
+        height: 40%;
+        width: 40%;
+        background: url(img/o_que_e.gif);
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+
+      .o_que_gif_d{
+        height: 40%;
+        width: 40%;
+        background: url(img/o_que_e_d.gif);
+        background-size: contain;
+        background-repeat: no-repeat;
       }
 
 
@@ -1031,7 +1100,6 @@ body {
         display: flex;
         position: relative;
       }
-
       .porque_caixas{
         position: sticky;
         top: 0;
@@ -1049,7 +1117,7 @@ body {
         top: 0;
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: space-around;
         flex-direction: column;
         width: 100%;
         height: 95%;
@@ -1062,6 +1130,30 @@ body {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        margin-bottom: -10vh;
+        opacity: 0;
+      }
+      .porque_caixa2{
+        background-color: #E0FAE3;
+        border-radius: 37px;
+        width: 90%;
+        height: 31%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: -20vh;
+        opacity: 0;
+      }
+      .porque_caixa3{
+        background-color: #E0FAE3;
+        border-radius: 37px;
+        width: 90%;
+        height: 31%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: -30vh;
+        opacity: 0;
       }
       .porque_caixa_titulo{
         font-family: 'Pilcrow Rounded', sans-serif;
@@ -1139,15 +1231,48 @@ body {
         color: #fff;
         margin-left: 92px;
       }
+      .porque_textos_titulo2{
+        font-family: 'Pilcrow Rounded', sans-serif;
+        font-size: 90px;
+        line-height: 89.76px;
+        color: #fff;
+        margin-left: 92px;
+      }
+      .porque_textos_titulo3{
+        font-family: 'Pilcrow Rounded', sans-serif;
+        font-size: 90px;
+        line-height: 89.76px;
+        color: #fff;
+        margin-left: 92px;
+      }
+      .porque_textos_titulo4{
+        font-family: 'Pilcrow Rounded', sans-serif;
+        font-size: 90px;
+        line-height: 89.76px;
+        color: #fff;
+        margin-left: 92px;
+      }
       .porque_textos_texto{
         font-family: 'Hind', sans-serif;
         width: 100%;
-        font-size: 2em;
+        font-size: 32px;
         font-weight:bold;
         color: #fff;
-        line-height: 29.92px;
+        line-height: -100vh;
         margin-left: 92px;
         margin-bottom: 80px;
+        opacity: 0;
+      }
+      .porque_textos_texto2{
+        font-family: 'Hind', sans-serif;
+        width: 100%;
+        font-size: 32px;
+        font-weight:bold;
+        color: #fff;
+        line-height: -100vh;
+        margin-left: 92px;
+        margin-bottom: 80px;
+        opacity: 0;
       }
 
 
@@ -1171,7 +1296,8 @@ body {
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        color: #ADEDC8;
+        color: #fff;
+        opacity: 0.4;
       }
       .quem_doar_alinhar3{
         width: 20%;
@@ -1180,7 +1306,8 @@ body {
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        color: #ADEDC8;
+        color: #fff;
+        opacity: 0.4;
       }
       .quem_doar_alinhar2{
         height: 70%;
@@ -1193,15 +1320,15 @@ body {
       }
       .porque_doar_sub_titulo{
         font-family: 'Pilcrow Rounded', sans-serif;
-        opacity: 1;
-        font-size: 4em;
+        font-size: 64px;
+        opacity: 0.7;
         margin: 0;
         padding: 0;
       }
       .porque_doar_titulo{
         font-family: 'Pilcrow Rounded', sans-serif;
         line-height: 89.76px;
-        font-size: 6em;
+        font-size: 96px;
         text-align: center;
         margin: 0;
         padding: 0;
@@ -1210,7 +1337,7 @@ body {
         width: 90%;
         font-family: 'Hind', sans-serif;
         font-weight: 600;
-        font-size: 2em;
+        font-size: 32px;
         line-height: 29.92px;
         text-align: center;
         margin: 0;
@@ -1226,7 +1353,8 @@ body {
       .porque_baixar{
         width: 335px;
         height: 95px;
-        border: 6px solid #ADEDC8;
+        border: 6px solid #fff;
+        background-color: #fff;
         border-radius: 18px;
         text-decoration: none;
         display: flex;
@@ -1234,7 +1362,7 @@ body {
         justify-content: center;
         font-size: 2em;
         font-family: 'Pilcrow Rounded', sans-serif;
-        color: #ADEDC8;
+        color: #3FC46D;
         transition: 0.1s;
       }
       .porque_baixar:hover{
@@ -1245,7 +1373,8 @@ body {
       .porque_baixar2{
         width: 335px;
         height: 95px;
-        border: 6px solid #ADEDC8;
+        border: 6px solid #fff;
+        background-color: #fff;
         border-radius: 18px;
         text-decoration: none;
         display: flex;
@@ -1253,7 +1382,7 @@ body {
         justify-content: center;
         font-size: 2em;
         font-family: 'Pilcrow Rounded', sans-serif;
-        color: #ADEDC8;
+        color: #3FC46D;
         transition: 0.1s;
       }
       .porque_baixar2:hover{
@@ -1277,7 +1406,7 @@ body {
       }
       .porque_baixar3:hover{
         background-color: #19674B;
-        color: #fff;
+        color: #F3FCF4;
       }
       .porque_doar_titulo2{
         font-family: 'Pilcrow Rounded', sans-serif;
@@ -1338,6 +1467,40 @@ body {
         height: 210vh;
         width: auto;
         display: flex;
+        position: relative;
+      }
+      .fundos_baixe{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: -1;
+      }
+      .fundo_baixe1{
+        width: 100%;
+        height: 100vh;
+        position: sticky;
+        top: 0;
+        background: url(img/fundo_baixe1.png);
+        background-size: cover;
+        background-position: 50% 0%;
+      }
+      .fundo_baixe2{
+        width: 100%;
+        height: 100vh;
+        position: sticky;
+        top: 0;
+        background: url(img/fundo_baixe2.png);
+        background-size: cover;
+        background-position: 50% 0%;
+      }
+      .fundo_baixe3{
+        width: 100%;
+        height: 100vh;
+        position: sticky;
+        top: 0;
+        background: url(img/fundo_baixe3.png);
+        background-size: cover;
+        background-position: 50% 0%;
       }
       .beixe_sticky{
         width: 50%;
@@ -1349,22 +1512,38 @@ body {
         justify-content: center;
       }
       .baixe_titulo{
-        font-family: 'Pilcrow Rounded', sans-serif;
         color: #3FC46D;
-        line-height: 80px;
-        font-size: 80px;
+        font-family: Pilcrow Rounded;
+        font-size: 96px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 93.5%; /* 89.76px */
         margin: 0;
-        margin-left: 150px;
+        margin-top: 96px;
+        padding: 0;
+      }
+      .baixe_titulo2{
+        color: #3FC46D;
+        font-family: Pilcrow Rounded;
+        font-size: 96px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 93.5%; /* 89.76px */
+        margin: 0;
+        margin-top: 96px;
         padding: 0;
       }
       .baixe_texto{
-        font-family: 'Hind', sans-serif;
         color: #19674B;
-        font-weight: bold;
-        font-size: 28px;
-        line-height: 25px;
-        margin-left: 150px;
+        font-family: Hind;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: -50vh; /* 29.92px */
+        margin-left: 15%;
+        margin-bottom: 10%;
         width: auto;
+        opacity: 0;
       }
       .svg_baixe{
         margin-left: 150px;
@@ -1423,6 +1602,14 @@ body {
 
 
 
+      .enfeite{
+        width: 100%;
+        height: 5vh;
+        background-color: #F3FCF4;
+        border-radius: 50px 50px 0px 0px;
+        position: absolute;
+        margin-top: -5vh;
+      }
 
       .rodape_juntos_podemos{
         width: auto;
@@ -1430,7 +1617,7 @@ body {
         background-color: #19674B;
       }
       .juntos_podemos{
-        width: auto;
+        width: 100%;
         height: 90vh;
         border-radius: 0px 0px 50px 50px;
         display: flex;
@@ -1578,7 +1765,7 @@ body {
       .rodape_conteudo_contato_titulo{
         font-family: 'Pilcrow Rounded', sans-serif;
         color: #EDFEEE;
-        line-height: 56.64px;
+        line-height: auto;
         font-size: 1.5em;
         margin: 0;
         padding: 0;
@@ -1591,8 +1778,7 @@ body {
         font-size: 1em;
         margin: 0;
         padding: 0;
-        margin-top: -10px;
-        margin-bottom: 25px;
+        margin-top: 0px;
         opacity: 0.6;
       }
 
@@ -1606,6 +1792,7 @@ body {
         padding-right: 10%;
         padding-top: 5%;
         padding-bottom: 5%;
+        border-top: 2px solid rgba(255, 255, 255, 0.10);
       }
       .logo_rodape{
         width: 122px;
@@ -4073,14 +4260,11 @@ justify-content: center;
         stroke: #19DE6E;
       }
 
+      .porque_caixa_darkk{
+        background-color: #E0FAE3;
+      }
       .porque_caixa_dark{
         background-color: #CBF6C0;
-        border-radius: 37px;
-        width: 90%;
-        height: 31%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
       }
       .svg_caixas_dark{
         position: absolute;
@@ -4139,6 +4323,7 @@ justify-content: center;
         width: 335px;
         height: 95px;
         border: 6px solid #CBF6C0;
+        background-color: #CBF6C0;
         border-radius: 18px;
         text-decoration: none;
         display: flex;
@@ -4146,7 +4331,8 @@ justify-content: center;
         justify-content: center;
         font-size: 2em;
         font-family: 'Pilcrow Rounded', sans-serif;
-        color: #CBF6C0;
+        color: #19674B;
+        opacity: 0.4;
         transition: 0.1s;
       }
 
@@ -4154,6 +4340,7 @@ justify-content: center;
         width: 335px;
         height: 95px;
         border: 6px solid #CBF6C0;
+        background-color: #CBF6C0;
         border-radius: 18px;
         text-decoration: none;
         display: flex;
@@ -4161,7 +4348,8 @@ justify-content: center;
         justify-content: center;
         font-size: 2em;
         font-family: 'Pilcrow Rounded', sans-serif;
-        color: #CBF6C0;
+        color: #19674B;
+        opacity: 0.4;
         transition: 0.1s;
       }
       .porque_baixar3_dark{
