@@ -4075,6 +4075,7 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 margin-top: 0;
+margin: 0;
       }
 
       .fim_rodape_mobile{
@@ -4335,7 +4336,11 @@ justify-content: center;
         opacity: 0.4;
         transition: 0.1s;
       }
-
+      .porque_baixar_dark:hover{
+        width: 325px;
+        height: 92px;
+        font-size: 1.9em;
+      }
       .porque_baixar2_dark{
         width: 335px;
         height: 95px;
@@ -4351,6 +4356,11 @@ justify-content: center;
         color: #19674B;
         opacity: 0.4;
         transition: 0.1s;
+      }
+      .porque_baixar2_dark:hover{
+        width: 325px;
+        height: 92px;
+        font-size: 1.9em;
       }
       .porque_baixar3_dark{
         width: 335px;
